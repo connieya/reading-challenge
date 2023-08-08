@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern1/SwingObserverExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/ConcreteInvestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/ConcreteStockMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/Investor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/StockMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/7일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -75,6 +69,9 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pattern_observer" />
@@ -152,8 +149,16 @@
       <option name="presentableId" value="Default" />
       <updated>1691251396547</updated>
       <workItem from="1691251398423" duration="3301000" />
-      <workItem from="1691369969841" duration="4383000" />
+      <workItem from="1691369969841" duration="5560000" />
     </task>
+    <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
+      <created>1691375709691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691375709691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,5 +174,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)" />
   </component>
 </project>
