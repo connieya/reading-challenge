@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/9.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 8일차 ( p.114 ~ 125)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_class/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_class/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_decorator/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -49,20 +54,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/reading-challenge",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/reading-challenge&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pattern_observer" />
@@ -77,7 +82,7 @@
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StarbuzzCoffee">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -121,6 +126,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern_decorator.StarbuzzCoffee" />
+      <module name="reading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern_decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="reading-challenge" />
       <method v="2">
@@ -136,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -149,7 +168,8 @@
       <option name="presentableId" value="Default" />
       <updated>1691251396547</updated>
       <workItem from="1691251398423" duration="3301000" />
-      <workItem from="1691369969841" duration="5560000" />
+      <workItem from="1691369969841" duration="9397000" />
+      <workItem from="1691565694732" duration="2694000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -158,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691375709691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="헤드퍼스트 디자인패턴 8일차 ( p.114 ~ 125)">
+      <created>1691458507865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691458507865</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +204,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)" />
+    <MESSAGE value="헤드퍼스트 디자인패턴 8일차 ( p.114 ~ 125)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 8일차 ( p.114 ~ 125)" />
   </component>
 </project>
