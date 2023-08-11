@@ -2,9 +2,9 @@ package patten_factory;
 
 public class PizzaStore {
 
-    SimplePizzaFactory factory;
+    Factory factory;
 
-    public PizzaStore(SimplePizzaFactory factory) {
+    public PizzaStore(Factory factory) {
         this.factory = factory;
     }
 

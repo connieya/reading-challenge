@@ -1,6 +1,6 @@
 package patten_factory;
 
-public class SimplePizzaFactory extends Factory {
+public class NYPizzaFactory extends Factory {
 
     public Pizza createPizza(String type) {
         Pizza pizza = null;
