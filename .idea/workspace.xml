@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 10일차 (p.140 ~ 152)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory/ChicagoPizzaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory/NYPizzaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/CaliforniaPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/ChicagoStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/NYStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/NYStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/NYStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patten_factory_framework/PizzaTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/11일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/12일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patten_factory/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patten_factory/PizzaStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patten_factory/SimplePizzaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patten_factory/SimplePizzaFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +27,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2TZX5RBqNqm6cHrpd5QiRvpODyc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,21 +34,6 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/reading-challenge",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="patten_factory_framework" />
@@ -243,6 +198,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)" />
