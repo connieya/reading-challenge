@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 10일차 (p.140 ~ 152)">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/14일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_singleton/ChocolateBoiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_singleton/ChocolateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/15일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +38,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="patten_factory_framework_dip" />
@@ -208,7 +211,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)" />
