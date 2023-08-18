@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 15일차 (p.205 ~ 216)">
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/16일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/SimpleRemoteControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern_singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern_singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pattern_command" />
       <recent name="patten_factory_framework_dip" />
       <recent name="patten_factory_framework" />
       <recent name="pattern_observer" />
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692152184679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)">
+      <created>1692239166412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692239166412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +234,7 @@
     <MESSAGE value="헤드퍼스트 디자인패턴 9일차 (p.126 ~ 139)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 10일차 (p.140 ~ 152)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 15일차 (p.205 ~ 216)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 15일차 (p.205 ~ 216)" />
+    <MESSAGE value="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)" />
   </component>
 </project>
