@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteControlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/SimpleRemoteControl.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFanHighCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFanOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFanOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/GarageDoorDownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/GarageDoorUpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteControlWithUndo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Streo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern_command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern_command/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pattern_command/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern_command/LightOnCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +78,7 @@
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaTestDrive">
+  <component name="RunManager" selected="Application.RemoteLoader">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -121,6 +135,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern_command.RemoteLoader" />
+      <module name="reading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern_command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern_decorator.StarbuzzCoffee" />
       <module name="reading" />
@@ -149,6 +176,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.PizzaTestDrive" />
         <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.Main" />
@@ -211,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692239166412</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)">
+      <created>1692325923877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692325923877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +270,7 @@
     <MESSAGE value="헤드퍼스트 디자인패턴 10일차 (p.140 ~ 152)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 15일차 (p.205 ~ 216)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)" />
+    <MESSAGE value="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)" />
   </component>
 </project>
