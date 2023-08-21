@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFanMediumCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Hottub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/HottubOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/HottubOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/MacroCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteLoader2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/StereoOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/TvOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/TvOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/19일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 19일차 (p.257 ~ 271)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story01/EmployeeTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story01/ServiceLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/1일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/J2EE.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/JSP모델1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/JSP모델2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/mvc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +63,7 @@
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\자바튜닝" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -191,7 +188,7 @@
       <workItem from="1691565694732" duration="5657000" />
       <workItem from="1691636679758" duration="2442000" />
       <workItem from="1691713737609" duration="4860000" />
-      <workItem from="1692579322178" duration="4002000" />
+      <workItem from="1692579322178" duration="13130000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692413396020</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="헤드퍼스트 디자인패턴 19일차 (p.257 ~ 271)">
+      <created>1692596261296</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692596261297</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +279,7 @@
     <MESSAGE value="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)" />
+    <MESSAGE value="헤드퍼스트 디자인패턴 19일차 (p.257 ~ 271)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 19일차 (p.257 ~ 271)" />
   </component>
 </project>
