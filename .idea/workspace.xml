@@ -4,28 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFanHighCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFanOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFanOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/GarageDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/GarageDoorDownCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/GarageDoorUpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteControlWithUndo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/StereoOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/StereoOnWithCDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Streo.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/CeilingFanMediumCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Hottub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/HottubOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/HottubOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/RemoteLoader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/StereoOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Tv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/TvOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_command/TvOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/19일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern_command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern_command/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern_command/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pattern_command/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern_command/LightOnCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +47,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -196,6 +191,7 @@
       <workItem from="1691565694732" duration="5657000" />
       <workItem from="1691636679758" duration="2442000" />
       <workItem from="1691713737609" duration="4860000" />
+      <workItem from="1692579322178" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -246,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692325923877</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)">
+      <created>1692413396020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692413396020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +274,7 @@
     <MESSAGE value="헤드퍼스트 디자인패턴 15일차 (p.205 ~ 216)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)" />
+    <MESSAGE value="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)" />
   </component>
 </project>
