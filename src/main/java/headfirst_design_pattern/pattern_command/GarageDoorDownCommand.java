@@ -1,0 +1,18 @@
+package headfirst_design_pattern.pattern_command;
+
+public class GarageDoorDownCommand implements Command {
+    GarageDoor garageDoor;
+    public GarageDoorDownCommand(GarageDoor garageDoor) {
+        this.garageDoor =garageDoor;
+    }
+
+    @Override
+    public void execute() {
+
+    }
+
+    @Override
+    public void undo() {
+
+    }
+}
