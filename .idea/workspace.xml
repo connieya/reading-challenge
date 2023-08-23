@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 20일차 (p.272 ~ 283)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story02/GetProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story02/SystemArrayCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/2일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 2일차 (p.17 ~ 27)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/adapter/EnumerationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/adapter/example/EnumerationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/adapter/example/FailFastTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/adapter/example/FailSafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/adapter/example/IteratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/21일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/41.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -66,7 +72,7 @@
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetEnv">
+  <component name="RunManager" selected="Application.FailSafeTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -97,12 +103,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.adapter.DuckTestDrive" />
+    <configuration name="EnumerationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.adapter.example.EnumerationExample" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headfirst_design_pattern.adapter.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.adapter.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailFastTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.adapter.example.FailFastTest" />
+      <module name="reading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst_design_pattern.adapter.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailSafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.adapter.example.FailSafeTest" />
+      <module name="reading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst_design_pattern.adapter.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,38 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story02.GetProperties" />
+    <configuration name="IteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.adapter.example.IteratorExample" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_performance_tuning.story02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.pattern_command.RemoteLoader" />
-      <module name="reading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="headfirst_design_pattern.pattern_command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story02.SystemArrayCopy" />
-      <module name="reading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_performance_tuning.story02.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.adapter.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FailSafeTest" />
+        <item itemvalue="Application.FailFastTest" />
+        <item itemvalue="Application.IteratorExample" />
+        <item itemvalue="Application.EnumerationExample" />
         <item itemvalue="Application.GetEnv" />
-        <item itemvalue="Application.GetProperties" />
-        <item itemvalue="Application.SystemArrayCopy" />
-        <item itemvalue="Application.DuckTestDrive" />
-        <item itemvalue="Application.RemoteLoader" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +205,8 @@
       <workItem from="1691636679758" duration="2442000" />
       <workItem from="1691713737609" duration="4860000" />
       <workItem from="1692579322178" duration="13182000" />
-      <workItem from="1692666789009" duration="7225000" />
+      <workItem from="1692666789009" duration="7552000" />
+      <workItem from="1692751069443" duration="5758000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -278,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692677391758</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="자바 성능 튜닝 이야기 2일차 (p.17 ~ 27)">
+      <created>1692684115374</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692684115374</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +321,7 @@
     <MESSAGE value="헤드퍼스트 디자인패턴 19일차 (p.257 ~ 271)" />
     <MESSAGE value="자바 성능 튜닝 이야기 1일차 (p.1 ~ 16)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 20일차 (p.272 ~ 283)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 20일차 (p.272 ~ 283)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 2일차 (p.17 ~ 27)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 2일차 (p.17 ~ 27)" />
   </component>
 </project>
