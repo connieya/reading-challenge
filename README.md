@@ -36,3 +36,4 @@
 - [1일차 : 2023-08-21 (p.1 ~16 ) / 디자인 패턴 꼭 써야 한다.](자바튜닝/1일차.md)
 - [2일차 : 2023-08-22 (p.17 ~ 27 ) / 프로파일링 툴과 System 클래스 ](자바튜닝/2일차.md)
 - [3일차 : 2023-08-23 (p.28 ~ 40 ) / System.currentTimeMillis 와 System.nanoTime  ](자바튜닝/3일차.md)
+- [4일차 : 2023-08-24 (p.41 ~ 48 ) / String 대신 StringBuffer 와 StringBuilder  ](자바튜닝/4일차.md)
