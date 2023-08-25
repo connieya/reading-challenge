@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="해드 퍼스트 디자인 패턴 22일차 (p.294 ~ 304)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story03/StringBufferTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story03/StringBufferTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story03/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/4일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 4일차 (p.41 ~ 48)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/23일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/22일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/22일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +38,17 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_design_pattern.facade" />
@@ -203,7 +203,8 @@
       <workItem from="1692579322178" duration="13182000" />
       <workItem from="1692666789009" duration="7552000" />
       <workItem from="1692751069443" duration="5758000" />
-      <workItem from="1692883066477" duration="3603000" />
+      <workItem from="1692883066477" duration="3769000" />
+      <workItem from="1692923396888" duration="1970000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -296,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692853283789</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="자바 성능 튜닝 이야기 4일차 (p.41 ~ 48)">
+      <created>1692886817630</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692886817630</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +335,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 20일차 (p.272 ~ 283)" />
     <MESSAGE value="자바 성능 튜닝 이야기 2일차 (p.17 ~ 27)" />
     <MESSAGE value="해드 퍼스트 디자인 패턴 22일차 (p.294 ~ 304)" />
-    <option name="LAST_COMMIT_MESSAGE" value="해드 퍼스트 디자인 패턴 22일차 (p.294 ~ 304)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 4일차 (p.41 ~ 48)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 4일차 (p.41 ~ 48)" />
   </component>
 </project>
