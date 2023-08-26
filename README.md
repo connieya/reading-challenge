@@ -40,3 +40,4 @@
 - [3일차 : 2023-08-23 (p.28 ~ 40 ) / System.currentTimeMillis 와 System.nanoTime  ](자바튜닝/3일차/3일차.md)
 - [4일차 : 2023-08-24 (p.41 ~ 48 ) / String 대신 StringBuffer 와 StringBuilder  ](자바튜닝/4일차/4일차.md)
 - [5일차 : 2023-08-25 (p.49 ~ 56 ) / String vsStringBuffer vs StringBuilder 응답 속도, 메모리 ,동작 원리  ](자바튜닝/5일차/5일차.md)
+- [6일차 : 2023-08-26 (p.57 ~63 ) / Collection 및 Map 인터페이스   ](자바튜닝/6일차/6일차.md)
