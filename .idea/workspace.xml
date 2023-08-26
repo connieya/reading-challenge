@@ -4,90 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 23일차 (p.305 ~ 316)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/CaffeineBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story03/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/24일차/24일.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/5일차/5일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/5일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/5일차/string메모리.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 5일차 (p.49 ~ 56)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/CaffeineBeverageWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/CoffeeWithHook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/Tea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차/1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/10일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/10일차/10일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/11일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/11일차/11일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/12일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/12일차/12일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/13일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/13일차/13일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차/14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/14일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/14일차/14일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차/15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/15일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/15일차/15일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/9일차/16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/16일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/16일차/16일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/9일차/17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/17일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/17일차/17일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/9일차/18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/18일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/18일차/18일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/10일차/19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/19일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/19일차/19일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/1일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/1일차/1일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차/2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/11일차/20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/20일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/20일차/20일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/21.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/11일차/21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/21일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/21일차/21일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/22.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/11일차/22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/22일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/22일차/22일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/12일차/23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/12일차/24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/25.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/14일차/25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/14일차/26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/14일차/27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/28.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/14일차/28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/29.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/16일차/29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/2일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/2일차/2일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차/3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/30.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/17일차/30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/17일차/31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/17일차/32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/33.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/18일차/33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/34.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/20일차/34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/20일차/35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/36.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/20일차/36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/37.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/20일차/37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/38.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/20일차/38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/39.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/21일차/39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/3일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/3일차/3일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차/4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/21일차/40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/41.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/21일차/41.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/42.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/22일차/42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/43.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/22일차/43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/4일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/4일차/4일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차/5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차/5일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차/6.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/6일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/6일차/6일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/5일차/7.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/7일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/7일차/7일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/6일차/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차/8일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/8일차/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/9일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/9일차/9일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/1일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/1일차/1일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/2일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/2일차/2일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/3일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/3일차/3일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/4일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/4일차/4일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/J2EE.gif" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/1일차/J2EE.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/JSP모델1.png" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/1일차/JSP모델1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/JSP모델2.png" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/1일차/JSP모델2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/mvc.png" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/1일차/mvc.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +207,7 @@
       <workItem from="1692666789009" duration="7552000" />
       <workItem from="1692751069443" duration="5758000" />
       <workItem from="1692883066477" duration="3769000" />
-      <workItem from="1692923396888" duration="9223000" />
+      <workItem from="1692923396888" duration="13019000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -391,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692928460375</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="자바 성능 튜닝 이야기 5일차 (p.49 ~ 56)">
+      <created>1692940603442</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692940603442</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,6 +354,7 @@
     <MESSAGE value="해드 퍼스트 디자인 패턴 22일차 (p.294 ~ 304)" />
     <MESSAGE value="자바 성능 튜닝 이야기 4일차 (p.41 ~ 48)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 23일차 (p.305 ~ 316)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 23일차 (p.305 ~ 316)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 5일차 (p.49 ~ 56)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 5일차 (p.49 ~ 56)" />
   </component>
 </project>
