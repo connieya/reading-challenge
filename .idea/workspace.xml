@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 3일차 (p.28 ~ 40)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story02/CompareJMH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story04/RandomKeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story04/SetAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/7일차/7일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 7일차 (p.64 ~ 86)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/DuckSortTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/template/MyStringList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/25일차/25일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/8일차/8일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바튜닝/3일차/3일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/자바튜닝/3일차/3일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/4일차/4일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/4일차/4일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +41,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_design_pattern.facade" />
@@ -73,7 +77,7 @@
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringBufferTest2">
+  <component name="RunManager" selected="Application.MyFrame">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -104,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailFastTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.adapter.example.FailFastTest" />
+    <configuration name="DuckSortTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.template.DuckSortTestDrive" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headfirst_design_pattern.adapter.example.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.adapter.example.IteratorExample" />
+    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.template.MyFrame" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headfirst_design_pattern.adapter.example.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyFrame" />
+        <item itemvalue="Application.DuckSortTestDrive" />
         <item itemvalue="Application.StringBufferTest2" />
         <item itemvalue="Application.StringBufferTest1" />
         <item itemvalue="Application.FailSafeTest" />
-        <item itemvalue="Application.FailFastTest" />
-        <item itemvalue="Application.IteratorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +214,9 @@
       <workItem from="1692751069443" duration="5758000" />
       <workItem from="1692883066477" duration="3769000" />
       <workItem from="1692923396888" duration="13019000" />
-      <workItem from="1693269436109" duration="11196000" />
+      <workItem from="1693269436109" duration="15282000" />
+      <workItem from="1693358068101" duration="1284000" />
+      <workItem from="1693834647271" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -324,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692940603442</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="자바 성능 튜닝 이야기 7일차 (p.64 ~ 86)">
+      <created>1693285734500</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693285734500</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +371,7 @@
     <MESSAGE value="자바 성능 튜닝 이야기 4일차 (p.41 ~ 48)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 23일차 (p.305 ~ 316)" />
     <MESSAGE value="자바 성능 튜닝 이야기 5일차 (p.49 ~ 56)" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 5일차 (p.49 ~ 56)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 7일차 (p.64 ~ 86)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 7일차 (p.64 ~ 86)" />
   </component>
 </project>
