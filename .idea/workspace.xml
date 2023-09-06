@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 25일차 (p.335~345)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/DinerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/PancakeHouseMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/26일차/26일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/PancakeHouseIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/27일차/27일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/DinerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/DinerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/PancakeHouseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/PancakeHouseMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,20 +44,6 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_design_pattern.facade" />
@@ -74,7 +66,7 @@
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyFrame">
+  <component name="RunManager" selected="Application.MenuTestDrive">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -118,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailSafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.adapter.example.FailSafeTest" />
+    <configuration name="MenuTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.iterator.MenuTestDrive" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="headfirst_design_pattern.adapter.example.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuTestDrive" />
         <item itemvalue="Application.MyFrame" />
         <item itemvalue="Application.DuckSortTestDrive" />
         <item itemvalue="Application.StringBufferTest2" />
         <item itemvalue="Application.StringBufferTest1" />
-        <item itemvalue="Application.FailSafeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -357,6 +349,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)" />

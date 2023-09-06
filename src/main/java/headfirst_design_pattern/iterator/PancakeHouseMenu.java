@@ -1,9 +1,11 @@
 package headfirst_design_pattern.iterator;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class PancakeHouseMenu {
+
     List<MenuItem> menuItems;
 
     public PancakeHouseMenu() {
@@ -16,6 +18,10 @@ public class PancakeHouseMenu {
         addItem("블루베리 팬케이크" , "신선한 블루베리와 시럽으로 만든 케이크",true,3.49);
     }
 
+//    public Iterator<MenuItem> createIterator(){
+//        return menuItems.iterator();
+//    }
+
     private void addItem(String name, String description, boolean vegetarian, double price) {
         MenuItem menuItem = new MenuItem(name,description,vegetarian,price);
         menuItems.add(menuItem);
@@ -24,4 +30,7 @@ public class PancakeHouseMenu {
     public List<MenuItem> getMenuItems() {
         return menuItems;
     }
+
+
+
 }

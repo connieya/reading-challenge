@@ -20,8 +20,12 @@ public class DinerMenu {
             numberOfItems++;
         }
     }
-
+    // 더 이상 필요 없다. 내부 구조를 다 드러내는 단점이 있어서 없애는게 낫다.
     public MenuItem[] getMenuItems() {
         return menuItems;
     }
+
+//    public Iterator createIterator(){
+//        return new DinerMenuIterator(menuItems);
+//    }
 }
