@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 25일차 (p.335~345)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/CafeMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/28일차/28일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/28일차/iterable.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/composite/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Waitress2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/29일차/29일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Waitress.java" afterDir="false" />
@@ -41,10 +40,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,11 +61,11 @@
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트\28일차" />
       <recent name="C:\reading-challenge\자바튜닝\4일차" />
       <recent name="C:\reading-challenge\자바튜닝\3일차" />
       <recent name="C:\reading-challenge\자바튜닝\2일차" />
       <recent name="C:\reading-challenge\자바튜닝\1일차" />
-      <recent name="C:\reading-challenge\src\main\헤드퍼스트\9일차" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pattern_observer" />
@@ -209,6 +211,7 @@
       <workItem from="1693269436109" duration="15282000" />
       <workItem from="1693358068101" duration="1284000" />
       <workItem from="1693834647271" duration="7695000" />
+      <workItem from="1694133567899" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -336,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693837324374</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)">
+      <created>1694075702381</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694075702381</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +382,7 @@
     <MESSAGE value="자바 성능 튜닝 이야기 5일차 (p.49 ~ 56)" />
     <MESSAGE value="자바 성능 튜닝 이야기 7일차 (p.64 ~ 86)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 25일차 (p.335~345)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 25일차 (p.335~345)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)" />
   </component>
 </project>
