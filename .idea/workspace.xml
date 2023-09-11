@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/composite/MenuComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Waitress2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/29일차/29일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 29일차 (p.387~398)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/composite/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/composite/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/composite/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/composite/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/29일차/30일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/iterator/Waitress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +38,17 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_design_pattern.facade" />
@@ -61,17 +61,17 @@
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트\29일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\28일차" />
       <recent name="C:\reading-challenge\자바튜닝\4일차" />
       <recent name="C:\reading-challenge\자바튜닝\3일차" />
       <recent name="C:\reading-challenge\자바튜닝\2일차" />
-      <recent name="C:\reading-challenge\자바튜닝\1일차" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MenuTestDrive">
+  <component name="RunManager" selected="Application.headfirst_design_pattern.composite.MenuTestDrive">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -141,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story03.StringBufferTest1" />
+    <configuration name="StringBufferTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story03.StringBufferTest2" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
@@ -154,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story03.StringBufferTest2" />
+    <configuration name="headfirst_design_pattern.composite.MenuTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.composite.MenuTestDrive" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_performance_tuning.story03.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.headfirst_design_pattern.composite.MenuTestDrive" />
         <item itemvalue="Application.MenuTestDrive" />
         <item itemvalue="Application.MyFrame" />
         <item itemvalue="Application.DuckSortTestDrive" />
         <item itemvalue="Application.StringBufferTest2" />
-        <item itemvalue="Application.StringBufferTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,8 @@
       <workItem from="1693269436109" duration="15282000" />
       <workItem from="1693358068101" duration="1284000" />
       <workItem from="1693834647271" duration="7695000" />
-      <workItem from="1694133567899" duration="2918000" />
+      <workItem from="1694133567899" duration="3719000" />
+      <workItem from="1694394881509" duration="4599000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -346,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694075702381</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="헤드퍼스트 디자인 패턴 29일차 (p.387~398)">
+      <created>1694154160472</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694154160472</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +391,7 @@
     <MESSAGE value="자바 성능 튜닝 이야기 7일차 (p.64 ~ 86)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 25일차 (p.335~345)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 29일차 (p.387~398)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 29일차 (p.387~398)" />
   </component>
 </project>
