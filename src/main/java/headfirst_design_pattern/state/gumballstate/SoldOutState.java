@@ -24,8 +24,4 @@ public class SoldOutState implements State {
 
     }
 
-    @Override
-    public void refill() {
-
-    }
 }

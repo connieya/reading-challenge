@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 31일차 (p.415~427)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/State.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 32일차 (p.428~439)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/WinnerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/33일차/33일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/GumballMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/GumballMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/HasQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/HasQuarterState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldOutState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldOutState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +64,17 @@
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트\32일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\31일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\30일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\29일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\28일차" />
-      <recent name="C:\reading-challenge\자바튜닝\4일차" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.headfirst_design_pattern.composite.MenuTestDrive">
+  <component name="RunManager" selected="Application.GumballMachineTestDrive">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -117,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GumballMachineTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.state.gumballstate.GumballMachineTestDrive" />
+      <module name="reading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst_design_pattern.state.gumballstate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MenuTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.iterator.MenuTestDrive" />
       <module name="reading" />
@@ -136,19 +150,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="headfirst_design_pattern.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringBufferTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story03.StringBufferTest2" />
-      <module name="reading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_performance_tuning.story03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GumballMachineTestDrive" />
         <item itemvalue="Application.headfirst_design_pattern.composite.MenuTestDrive" />
         <item itemvalue="Application.MenuTestDrive" />
         <item itemvalue="Application.MyFrame" />
         <item itemvalue="Application.DuckSortTestDrive" />
-        <item itemvalue="Application.StringBufferTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +217,8 @@
       <workItem from="1694133567899" duration="3719000" />
       <workItem from="1694394881509" duration="6570000" />
       <workItem from="1694478415990" duration="620000" />
-      <workItem from="1694521112362" duration="3460000" />
+      <workItem from="1694521112362" duration="3745000" />
+      <workItem from="1694574102251" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -372,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694522700070</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="헤드퍼스트 디자인 패턴 32일차 (p.428~439)">
+      <created>1694524858699</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694524858699</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,6 +421,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 29일차 (p.387~398)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 30일차 (p.399~414)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 31일차 (p.415~427)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 31일차 (p.415~427)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 32일차 (p.428~439)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 32일차 (p.428~439)" />
   </component>
 </project>
