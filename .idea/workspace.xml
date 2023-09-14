@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 32일차 (p.428~439)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/WinnerState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/33일차/33일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/GumballMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/GumballMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/HasQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/HasQuarterState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldOutState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldOutState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/state/gumballstate/SoldState.java" afterDir="false" />
-    </list>
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 33일차 (p.440~454)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,11 +54,11 @@
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트\33일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\32일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\31일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\30일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\29일차" />
-      <recent name="C:\reading-challenge\src\main\헤드퍼스트\28일차" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pattern_observer" />
@@ -218,7 +208,7 @@
       <workItem from="1694394881509" duration="6570000" />
       <workItem from="1694478415990" duration="620000" />
       <workItem from="1694521112362" duration="3745000" />
-      <workItem from="1694574102251" duration="1994000" />
+      <workItem from="1694574102251" duration="2256000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -381,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694524858699</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="헤드퍼스트 디자인 패턴 33일차 (p.440~454)">
+      <created>1694585121720</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1694585121720</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,6 +419,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 30일차 (p.399~414)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 31일차 (p.415~427)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 32일차 (p.428~439)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 32일차 (p.428~439)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 33일차 (p.440~454)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 33일차 (p.440~454)" />
   </component>
 </project>
