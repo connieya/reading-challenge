@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 9일차 (p.103~118)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/GumballMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumball/WinnerState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/34일차/34일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 34일차 (p.453~463)">
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/35일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/35일차/proxy8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -222,7 +222,8 @@
       <workItem from="1694478415990" duration="620000" />
       <workItem from="1694521112362" duration="3745000" />
       <workItem from="1694574102251" duration="2256000" />
-      <workItem from="1694650631023" duration="9465000" />
+      <workItem from="1694650631023" duration="9494000" />
+      <workItem from="1694768110616" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -406,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694675678635</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="헤드퍼스트 디자인 패턴 34일차 (p.453~463)">
+      <created>1694682172048</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1694682172048</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인패턴 8일차 ( p.114 ~ 125)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 9일차 (p.126 ~ 139)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 10일차 (p.140 ~ 152)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 15일차 (p.205 ~ 216)" />
@@ -449,6 +456,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 33일차 (p.440~454)" />
     <MESSAGE value="자바 성능 튜닝 이야기 8일차 (p.87~101)" />
     <MESSAGE value="자바 성능 튜닝 이야기 9일차 (p.103~118)" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 9일차 (p.103~118)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 34일차 (p.453~463)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 34일차 (p.453~463)" />
   </component>
 </project>
