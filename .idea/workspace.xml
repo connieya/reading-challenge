@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 35일차 (p.464 ~ 474)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/MyRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/MyRemoteClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/MyRemoteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumballmonitor/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumballmonitor/GumballMachineRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumballmonitor/GumballMachineTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumballmonitor/GumballMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumballmonitor/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/gumballmonitor/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/36일차/36일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/36일차/p.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/36일차/p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/36일차/p2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/36일차/p3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/36일차/p4.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/virtualproxy/Icon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/virtualproxy/ImageProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/37일차/37일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -72,11 +60,11 @@
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트\36일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\35일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\33일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\32일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\31일차" />
-      <recent name="C:\reading-challenge\src\main\헤드퍼스트\30일차" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pattern_observer" />
@@ -230,7 +218,7 @@
       <workItem from="1694650631023" duration="9494000" />
       <workItem from="1694768110616" duration="361000" />
       <workItem from="1694825676382" duration="2762000" />
-      <workItem from="1694999299847" duration="443000" />
+      <workItem from="1694999299847" duration="2152000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -428,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694768461984</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)">
+      <created>1694999809706</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1694999809706</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인패턴 10일차 (p.140 ~ 152)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 15일차 (p.205 ~ 216)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)" />
@@ -471,6 +465,7 @@
     <MESSAGE value="자바 성능 튜닝 이야기 9일차 (p.103~118)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 34일차 (p.453~463)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 35일차 (p.464 ~ 474)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 35일차 (p.464 ~ 474)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)" />
   </component>
 </project>
