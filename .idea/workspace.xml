@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/virtualproxy/Icon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/proxy/virtualproxy/ImageProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/37일차/37일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 37일차 (p.489 ~ 502)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story07/DemoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story07/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story07/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/10일차/10일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -60,17 +61,17 @@
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트\37일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\36일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\35일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\33일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\32일차" />
-      <recent name="C:\reading-challenge\src\main\헤드퍼스트\31일차" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.headfirst_design_pattern.proxy.gumball.GumballMachineTestDrive">
+  <component name="RunManager" selected="Application.DemoTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -97,6 +98,19 @@
       <option name="resourceGroup" />
       <option name="stagingFolder" />
       <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story07.DemoTest" />
+      <module name="reading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_performance_tuning.story07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,19 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="headfirst_design_pattern.composite.MenuTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.composite.MenuTestDrive" />
-      <module name="reading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="headfirst_design_pattern.composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="headfirst_design_pattern.proxy.gumball.GumballMachineTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.proxy.gumball.GumballMachineTestDrive" />
       <module name="reading" />
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoTest" />
         <item itemvalue="Application.headfirst_design_pattern.proxy.gumball.GumballMachineTestDrive" />
         <item itemvalue="Application.StaticBasicSample2" />
         <item itemvalue="Application.StaticBasicSample" />
         <item itemvalue="Application.GumballMachineTestDrive" />
-        <item itemvalue="Application.headfirst_design_pattern.composite.MenuTestDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,7 @@
       <workItem from="1694650631023" duration="9494000" />
       <workItem from="1694768110616" duration="361000" />
       <workItem from="1694825676382" duration="2762000" />
-      <workItem from="1694999299847" duration="2152000" />
+      <workItem from="1694999299847" duration="6021000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -423,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694999809706</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="헤드퍼스트 디자인 패턴 37일차 (p.489 ~ 502)">
+      <created>1695013223236</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695013223236</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인패턴 15일차 (p.205 ~ 216)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)" />
@@ -466,6 +473,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 34일차 (p.453~463)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 35일차 (p.464 ~ 474)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 37일차 (p.489 ~ 502)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 37일차 (p.489 ~ 502)" />
   </component>
 </project>
