@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 38일차 (p.503 ~ 513)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/InfinitThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/InterruptSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/RunThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/RunnableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/Sleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/ThreadExtends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/11일차/11일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
+      <change afterPath="$PROJECT_DIR$/스프링5/1일차/1일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -223,7 +217,9 @@
       <workItem from="1694768110616" duration="361000" />
       <workItem from="1694825676382" duration="2762000" />
       <workItem from="1694999299847" duration="6399000" />
-      <workItem from="1695086727215" duration="5604000" />
+      <workItem from="1695086727215" duration="5691000" />
+      <workItem from="1695113349029" duration="1543000" />
+      <workItem from="1695129318864" duration="2471000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -449,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695089177172</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
+      <created>1695093154898</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1695093154898</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +470,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인패턴 18일차 (p.240 ~ 256)" />
     <MESSAGE value="헤드퍼스트 디자인패턴 19일차 (p.257 ~ 271)" />
     <MESSAGE value="자바 성능 튜닝 이야기 1일차 (p.1 ~ 16)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 20일차 (p.272 ~ 283)" />
@@ -492,6 +494,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 37일차 (p.489 ~ 502)" />
     <MESSAGE value="자바 성능 튜닝 이야기 (p.119 ~ 132)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 38일차 (p.503 ~ 513)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 38일차 (p.503 ~ 513)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)" />
   </component>
 </project>
