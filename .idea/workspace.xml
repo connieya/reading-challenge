@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 39일차 (p.514 ~ 527)">
-      <change afterPath="$PROJECT_DIR$/스프링5/2일차/2일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="스프링 5 프로그래밍 입문 2일차 (p.73 ~ 88)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/ContributeStaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/ContributeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/Contribution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/ContributionStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/Contributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/ContributorStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/12일차/12일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/스프링5/1일차/1일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/스프링5/1일차/1일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/스프링5/2일차/2일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/스프링5/2일차/2일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +72,11 @@
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\33일차" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="java_performance_tuning.story08.synchro" />
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterruptSample">
+  <component name="RunManager" selected="Application.ContributeStaticTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -100,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story07.DemoTest" />
+    <configuration name="ContributeStaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story08.synchro.ContributeStaticTest" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_performance_tuning.story07.*" />
+          <option name="PATTERN" value="java_performance_tuning.story08.synchro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContributeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story08.synchro.ContributeTest" />
+      <module name="reading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_performance_tuning.story08.synchro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="headfirst_design_pattern.proxy.gumball.GumballMachineTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.proxy.gumball.GumballMachineTestDrive" />
-      <module name="reading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="headfirst_design_pattern.proxy.gumball.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="reading-challenge" />
       <method v="2">
@@ -180,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContributeStaticTest" />
+        <item itemvalue="Application.ContributeTest" />
         <item itemvalue="Application.InterruptSample" />
         <item itemvalue="Application.Sleep" />
         <item itemvalue="Application.RunThreads" />
-        <item itemvalue="Application.DemoTest" />
-        <item itemvalue="Application.headfirst_design_pattern.proxy.gumball.GumballMachineTestDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +229,7 @@
       <workItem from="1695113349029" duration="1543000" />
       <workItem from="1695129318864" duration="2543000" />
       <workItem from="1695169766507" duration="3087000" />
-      <workItem from="1695207044852" duration="4259000" />
+      <workItem from="1695207044852" duration="8262000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -469,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695198296462</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="스프링 5 프로그래밍 입문 2일차 (p.73 ~ 88)">
+      <created>1695211504424</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695211504424</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인 패턴 20일차 (p.272 ~ 283)" />
     <MESSAGE value="자바 성능 튜닝 이야기 2일차 (p.17 ~ 27)" />
     <MESSAGE value="해드 퍼스트 디자인 패턴 22일차 (p.294 ~ 304)" />
     <MESSAGE value="자바 성능 튜닝 이야기 4일차 (p.41 ~ 48)" />
@@ -512,6 +525,7 @@
     <MESSAGE value="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 1일차 (p.53 ~ 72)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 39일차 (p.514 ~ 527)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 39일차 (p.514 ~ 527)" />
+    <MESSAGE value="스프링 5 프로그래밍 입문 2일차 (p.73 ~ 88)" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 5 프로그래밍 입문 2일차 (p.73 ~ 88)" />
   </component>
 </project>
