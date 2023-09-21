@@ -4,17 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="스프링 5 프로그래밍 입문 2일차 (p.73 ~ 88)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/ContributeStaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/ContributeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/Contribution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/ContributionStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/Contributor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story08/synchro/ContributorStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/12일차/12일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 12일차 (p.144 ~ 160)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/adapter/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/adapter/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/adapter/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/adapter/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/adapter/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/adapter/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/adapter/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/adapter/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/decorator/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/ducks/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/ducks/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/ducks/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/ducks/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/ducks/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/ducks/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/AbstractDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/CountingDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/DuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combining/factory/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/40일차/40일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/스프링5/2일차/2일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/스프링5/2일차/2일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +70,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/reading-challenge/src/main/java/headfirst_design_pattern/combining/factory",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="headfirst_design_pattern.combining.adapter" />
       <recent name="headfirst_design_pattern.proxy.virtualproxy" />
       <recent name="java_performance_tuning.story08" />
       <recent name="headfirst_design_pattern.proxy.gumballmonitor" />
       <recent name="headfirst_design_pattern.proxy.gumball" />
-      <recent name="java_performance_tuning.story06" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\factory" />
+      <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\decorator" />
+      <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\adapter" />
       <recent name="C:\study\reading_challenge\src\main\헤드퍼스트" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +108,7 @@
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContributeStaticTest">
+  <component name="RunManager" selected="Application.headfirst_design_pattern.combining.factory.DuckSimulator">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -133,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story08.InterruptSample" />
+    <configuration name="DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.combining.ducks.DuckSimulator" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_performance_tuning.story08.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.combining.ducks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story08.RunThreads" />
+    <configuration name="headfirst_design_pattern.combining.decorator.DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.combining.decorator.DuckSimulator" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_performance_tuning.story08.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.combining.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_performance_tuning.story08.Sleep" />
+    <configuration name="headfirst_design_pattern.combining.factory.DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst_design_pattern.combining.factory.DuckSimulator" />
       <module name="reading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_performance_tuning.story08.*" />
+          <option name="PATTERN" value="headfirst_design_pattern.combining.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.headfirst_design_pattern.combining.factory.DuckSimulator" />
+        <item itemvalue="Application.headfirst_design_pattern.combining.decorator.DuckSimulator" />
+        <item itemvalue="Application.DuckSimulator" />
         <item itemvalue="Application.ContributeStaticTest" />
         <item itemvalue="Application.ContributeTest" />
-        <item itemvalue="Application.InterruptSample" />
-        <item itemvalue="Application.Sleep" />
-        <item itemvalue="Application.RunThreads" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +261,9 @@
       <workItem from="1695113349029" duration="1543000" />
       <workItem from="1695129318864" duration="2543000" />
       <workItem from="1695169766507" duration="3087000" />
-      <workItem from="1695207044852" duration="8262000" />
+      <workItem from="1695207044852" duration="8421000" />
+      <workItem from="1695256875776" duration="1863000" />
+      <workItem from="1695295302569" duration="2084000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -483,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695211504424</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="자바 성능 튜닝 이야기 12일차 (p.144 ~ 160)">
+      <created>1695217462081</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1695217462081</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 2일차 (p.17 ~ 27)" />
     <MESSAGE value="해드 퍼스트 디자인 패턴 22일차 (p.294 ~ 304)" />
     <MESSAGE value="자바 성능 튜닝 이야기 4일차 (p.41 ~ 48)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 23일차 (p.305 ~ 316)" />
@@ -526,6 +566,7 @@
     <MESSAGE value="스프링 5 프로그래밍 입문 1일차 (p.53 ~ 72)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 39일차 (p.514 ~ 527)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 2일차 (p.73 ~ 88)" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 5 프로그래밍 입문 2일차 (p.73 ~ 88)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 12일차 (p.144 ~ 160)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 12일차 (p.144 ~ 160)" />
   </component>
 </project>
