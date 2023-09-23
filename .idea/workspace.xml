@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 41일차 (P.540 ~ 553)">
-      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/42일차/42일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 42일차 (P.554 ~ 564)">
+      <change afterPath="$PROJECT_DIR$/스프링5/4일차/4일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/reading-challenge/src/main/java/headfirst_design_pattern/combining/observer",
+    "last_opened_file_path": "C:/reading-challenge/src/main/헤드퍼스트/42일차",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,11 +55,11 @@
       <recent name="headfirst_design_pattern.proxy.gumballmonitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\observer" />
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\composite" />
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\factory" />
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\decorator" />
-      <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\adapter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\41일차" />
@@ -230,7 +230,7 @@
       <workItem from="1695256875776" duration="1863000" />
       <workItem from="1695295302569" duration="5900000" />
       <workItem from="1695341440262" duration="46000" />
-      <workItem from="1695429622889" duration="3428000" />
+      <workItem from="1695429622889" duration="5534000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -512,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695433352749</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="헤드퍼스트 디자인 패턴 42일차 (P.554 ~ 564)">
+      <created>1695474624004</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1695474624004</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 5일차 (p.49 ~ 56)" />
     <MESSAGE value="자바 성능 튜닝 이야기 7일차 (p.64 ~ 86)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 25일차 (p.335~345)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)" />
@@ -555,6 +561,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 40일차 (p.528 ~ 539)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 3일차 (P.89 ~ 102)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 41일차 (P.540 ~ 553)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 41일차 (P.540 ~ 553)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 42일차 (P.554 ~ 564)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 42일차 (P.554 ~ 564)" />
   </component>
 </project>
