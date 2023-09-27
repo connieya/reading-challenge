@@ -103,5 +103,12 @@ public class DJView implements ActionListener ,BeatObserver, BPMObserver {
 
 
     public void createControls() {
+        JFrame.setDefaultLookAndFeelDecorated(true);
+        controlFrame = new JFrame("Control");
+        controlFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        controlFrame.setSize(new Dimension(100, 80));
+        controlPanel = new JPanel(new GridLayout(1,2));
+
+        menuBar = new JMenuBar();
     }
 }

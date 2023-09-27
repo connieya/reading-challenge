@@ -68,26 +68,25 @@ public class BeatModel implements BeatModelInterface, Runnable {
         return bpm;
     }
 
-    private void playBeat() {
-    }
 
     private void notifyBPMObservers() {
+        for(int i=0; i< beatObservers.size(); i++) {
+            BeatObserver observer =  (BeatObserver)beatObservers.get(i);
+            observer.updateBeat();
+        }
     }
-
-
-
-    private void stopBeat() {
-    }
-
-
 
     @Override
     public void registerObserver(BeatObserver o) {
-
+        beatObservers.add(o);
     }
 
     @Override
     public void removeObserver(BeatObserver o) {
+        int i = beatObservers.indexOf(o);
+        if (i >=0 ){
+            beatObservers.remove(i);
+        }
 
     }
 
@@ -98,8 +97,20 @@ public class BeatModel implements BeatModelInterface, Runnable {
 
     @Override
     public void removeObserver(BPMObserver o) {
+        int i = bpmObservers.indexOf(o);
+        if ( i>=0) {
+            bpmObservers.remove(i);
+        }
 
     }
+    private void playBeat() {
+        clip.setFramePosition(0);
+        clip.start();
+    }
 
+    private void stopBeat() {
+        clip.setFramePosition(0);
+        clip.start();
+    }
 
 }
