@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기  15일차 (p.183 ~ 199)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/DJTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/HeartModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/HeartTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/16일차/16일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/BeatModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/BeatModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/BeatModelInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/BeatModelInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/DJView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/headfirst_design_pattern/combined/djview/DJView.java" afterDir="false" />
-    </list>
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴  44일차 (p.580 ~ 598)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,11 +43,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="headfirst_design_pattern.combined.djview" />
       <recent name="headfirst_design_pattern.combining.observer" />
       <recent name="headfirst_design_pattern.combining.adapter" />
       <recent name="headfirst_design_pattern.proxy.virtualproxy" />
       <recent name="java_performance_tuning.story08" />
-      <recent name="headfirst_design_pattern.proxy.gumballmonitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
@@ -237,7 +227,7 @@
       <workItem from="1695341440262" duration="46000" />
       <workItem from="1695429622889" duration="5534000" />
       <workItem from="1695688040181" duration="12000" />
-      <workItem from="1695823407767" duration="653000" />
+      <workItem from="1695823407767" duration="1426000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -554,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695652736580</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="헤드퍼스트 디자인 패턴  44일차 (p.580 ~ 598)">
+      <created>1695824231907</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1695824231907</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인 패턴 30일차 (p.399~414)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 31일차 (p.415~427)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 32일차 (p.428~439)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 33일차 (p.440~454)" />
@@ -597,6 +593,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 43일차 (p.556 ~ 579)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 5일차 (p.115 ~ 127)" />
     <MESSAGE value="자바 성능 튜닝 이야기  15일차 (p.183 ~ 199)" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기  15일차 (p.183 ~ 199)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴  44일차 (p.580 ~ 598)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴  44일차 (p.580 ~ 598)" />
   </component>
 </project>
