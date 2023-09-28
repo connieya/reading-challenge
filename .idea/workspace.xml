@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴  44일차 (p.580 ~ 598)" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴  45일차 (p.599 ~ 609)">
+      <change afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/45일차/45일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,16 +34,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="headfirst_design_pattern.combined.djview" />
@@ -227,7 +230,8 @@
       <workItem from="1695341440262" duration="46000" />
       <workItem from="1695429622889" duration="5534000" />
       <workItem from="1695688040181" duration="12000" />
-      <workItem from="1695823407767" duration="1426000" />
+      <workItem from="1695823407767" duration="1483000" />
+      <workItem from="1695825684198" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="헤드퍼스트 디자인패턴 7일차 ( p.102 ~ 113)">
       <created>1691375709691</created>
@@ -551,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695824231907</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="헤드퍼스트 디자인 패턴  45일차 (p.599 ~ 609)">
+      <created>1695825511731</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1695825511731</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인 패턴 31일차 (p.415~427)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 32일차 (p.428~439)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 33일차 (p.440~454)" />
     <MESSAGE value="자바 성능 튜닝 이야기 8일차 (p.87~101)" />
@@ -594,6 +604,7 @@
     <MESSAGE value="스프링 5 프로그래밍 입문 5일차 (p.115 ~ 127)" />
     <MESSAGE value="자바 성능 튜닝 이야기  15일차 (p.183 ~ 199)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴  44일차 (p.580 ~ 598)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴  44일차 (p.580 ~ 598)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴  45일차 (p.599 ~ 609)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴  45일차 (p.599 ~ 609)" />
   </component>
 </project>
