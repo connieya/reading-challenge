@@ -88,3 +88,4 @@
 - [9일차 : 2023-09-29 (p.158 ~ 166  ) / AOP 개념, 종류, 구현     ](스프링5/9일차/9일차.md)
 - [10일차 : 2023-09-30 (p.167 ~ 177  ) / AOP 애노테이션 @Advice , @Pointcut   ](스프링5/10일차/10일차.md)
 - [11일차 : 2023-10-01 (p.178 ~ 189  ) / DB 연동 , DataSource   ](스프링5/11일차/11일차.md)
+- [12일차 : 2023-10-02 (p.190 ~ 208   ) / JdbcTemplate 쿼리 (query() , RowMapper , queryForObject() , PreparedStatementCreator)  ](스프링5/12일차/12일차.md)
