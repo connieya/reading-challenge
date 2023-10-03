@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="스프링 5 프로그래밍 입문 9일차 (p.158 ~ 166)">
-      <change afterPath="$PROJECT_DIR$/스프링5/10일차/10일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/스프링5/10일차/img.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="스프링 5 프로그래밍 입문 10일차 (p.167 ~ 177)">
+      <change afterPath="$PROJECT_DIR$/스프링5/11일차/11일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -238,14 +237,7 @@
       <workItem from="1695872399280" duration="6028000" />
       <workItem from="1695895152887" duration="847000" />
       <workItem from="1696258715125" duration="317000" />
-      <workItem from="1696297677733" duration="8355000" />
-    </task>
-    <task id="LOCAL-00006" summary="헤드퍼스트 디자인패턴 16일차 (p.217 ~ 226)">
-      <created>1692239166412</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1692239166412</updated>
+      <workItem from="1696297677733" duration="10762000" />
     </task>
     <task id="LOCAL-00007" summary="헤드퍼스트 디자인패턴 17일차 (p.227 ~ 239)">
       <created>1692325923877</created>
@@ -583,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696325385766</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="스프링 5 프로그래밍 입문 10일차 (p.167 ~ 177)">
+      <created>1696332910025</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1696332910025</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 37일차 (p.489 ~ 502)" />
     <MESSAGE value="자바 성능 튜닝 이야기 (p.119 ~ 132)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 38일차 (p.503 ~ 513)" />
@@ -626,6 +624,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴 48일차 (p.636 ~ 649)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 8일차 (p.151 ~ 157)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 9일차 (p.158 ~ 166)" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 5 프로그래밍 입문 9일차 (p.158 ~ 166)" />
+    <MESSAGE value="스프링 5 프로그래밍 입문 10일차 (p.167 ~ 177)" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 5 프로그래밍 입문 10일차 (p.167 ~ 177)" />
   </component>
 </project>
