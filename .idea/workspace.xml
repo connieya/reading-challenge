@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 47일차 (p.622 ~ 635)" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="헤드퍼스트 디자인 패턴 48일차 (p.636 ~ 649)">
+      <change afterPath="$PROJECT_DIR$/스프링5/8일차/8일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/헤드퍼스트/47일차/47일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/헤드퍼스트/47일차/47일차.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +62,11 @@
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\decorator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reading-challenge\src\main\헤드퍼스트\48일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\47일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\41일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\38일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\37일차" />
-      <recent name="C:\reading-challenge\src\main\헤드퍼스트\36일차" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="java_performance_tuning.story08.synchro" />
@@ -232,13 +237,8 @@
       <workItem from="1695865150132" duration="222000" />
       <workItem from="1695872399280" duration="6028000" />
       <workItem from="1695895152887" duration="847000" />
-    </task>
-    <task id="LOCAL-00003" summary="헤드퍼스트 디자인패턴 9일차 (p.126 ~ 139)">
-      <created>1691569704954</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691569704954</updated>
+      <workItem from="1696258715125" duration="317000" />
+      <workItem from="1696297677733" duration="3044000" />
     </task>
     <task id="LOCAL-00004" summary="헤드퍼스트 디자인패턴 10일차 (p.140 ~ 152)">
       <created>1691652620715</created>
@@ -576,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696037111355</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="헤드퍼스트 디자인 패턴 48일차 (p.636 ~ 649)">
+      <created>1696258951295</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1696258951296</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 9일차 (p.103~118)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 34일차 (p.453~463)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 35일차 (p.464 ~ 474)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 36일차 (p.475 ~ 488)" />
@@ -619,6 +625,7 @@
     <MESSAGE value="헤드퍼스트 디자인 패턴  46일차 (p.610 ~ 621)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 6일차 (p.128 ~ 140)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 47일차 (p.622 ~ 635)" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 47일차 (p.622 ~ 635)" />
+    <MESSAGE value="헤드퍼스트 디자인 패턴 48일차 (p.636 ~ 649)" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤드퍼스트 디자인 패턴 48일차 (p.636 ~ 649)" />
   </component>
 </project>
