@@ -94,3 +94,4 @@
 - [11일차 : 2023-10-01 (p.178 ~ 189  ) / DB 연동 , DataSource   ](스프링5/11일차/11일차.md)
 - [12일차 : 2023-10-02 (p.190 ~ 208   ) / JdbcTemplate 쿼리 (query() , RowMapper , queryForObject() , PreparedStatementCreator)  ](스프링5/12일차/12일차.md)
 - [13일차 : 2023-10-03 (p.209 ~ 231 ) / 트랜잭션 , @Transactional  ](스프링5/13일차/13일차.md)
+- [14일차 : 2023-10-04 (p.232 ~ 248 ) / 스프링 MVC 설정   ](스프링5/14일차/14일차.md)
