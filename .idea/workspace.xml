@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 20일차 (p.269 ~ 276)">
-      <change afterPath="$PROJECT_DIR$/자바튜닝/21일차/21일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/21일차/img.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 21일차 (p.277 ~ 294)">
+      <change afterPath="$PROJECT_DIR$/자바튜닝/22일차/22일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/22일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/22일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/22일차/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -241,14 +243,8 @@
       <workItem from="1696297677733" duration="19119000" />
       <workItem from="1696426822594" duration="3565000" />
       <workItem from="1696470203949" duration="6252000" />
-      <workItem from="1696636496121" duration="13232000" />
-    </task>
-    <task id="LOCAL-00017" summary="자바 성능 튜닝 이야기 7일차 (p.64 ~ 86)">
-      <created>1693285734500</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1693285734500</updated>
+      <workItem from="1696636496121" duration="16039000" />
+      <workItem from="1696811917264" duration="1938000" />
     </task>
     <task id="LOCAL-00018" summary="헤드퍼스트 디자인 패턴 25일차 (p.335~345)">
       <created>1693837324374</created>
@@ -586,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696649841362</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="자바 성능 튜닝 이야기 21일차 (p.277 ~ 294)">
+      <created>1696656891318</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1696656891318</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="헤드퍼스트 디자인 패턴 41일차 (P.540 ~ 553)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 42일차 (P.554 ~ 564)" />
     <MESSAGE value="자바 성능 튜닝 이야기 13일차 (p.161 ~ 171)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 43일차 (p.556 ~ 579)" />
@@ -629,6 +631,7 @@
     <MESSAGE value="자바 성능 튜닝 이야기 18일차 (p.237 ~ 260)" />
     <MESSAGE value="자바 성능 튜닝 이야기 19일차 (p.261 ~ 268)" />
     <MESSAGE value="자바 성능 튜닝 이야기 20일차 (p.269 ~ 276)" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 20일차 (p.269 ~ 276)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 21일차 (p.277 ~ 294)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 21일차 (p.277 ~ 294)" />
   </component>
 </project>
