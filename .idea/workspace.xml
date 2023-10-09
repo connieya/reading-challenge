@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 22일차 (p.295 ~ 305)">
-      <change afterPath="$PROJECT_DIR$/자바튜닝/23일차/23일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 23일차 (p.306 ~ 318)">
+      <change afterPath="$PROJECT_DIR$/자바튜닝/24일차/24일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/24일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/24일차/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -242,14 +244,7 @@
       <workItem from="1696470203949" duration="6252000" />
       <workItem from="1696636496121" duration="16039000" />
       <workItem from="1696811917264" duration="1938000" />
-      <workItem from="1696813908919" duration="3380000" />
-    </task>
-    <task id="LOCAL-00019" summary="헤드퍼스트 디자인 패턴 28일차 (p.374~386&#10;)">
-      <created>1694075702381</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1694075702381</updated>
+      <workItem from="1696813908919" duration="5364000" />
     </task>
     <task id="LOCAL-00020" summary="헤드퍼스트 디자인 패턴 29일차 (p.387~398)">
       <created>1694154160472</created>
@@ -587,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696814163794</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="자바 성능 튜닝 이야기 23일차 (p.306 ~ 318)">
+      <created>1696817554206</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1696817554207</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 13일차 (p.161 ~ 171)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴 43일차 (p.556 ~ 579)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 5일차 (p.115 ~ 127)" />
     <MESSAGE value="자바 성능 튜닝 이야기  15일차 (p.183 ~ 199)" />
@@ -630,6 +631,7 @@
     <MESSAGE value="자바 성능 튜닝 이야기 20일차 (p.269 ~ 276)" />
     <MESSAGE value="자바 성능 튜닝 이야기 21일차 (p.277 ~ 294)" />
     <MESSAGE value="자바 성능 튜닝 이야기 22일차 (p.295 ~ 305)" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 22일차 (p.295 ~ 305)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 23일차 (p.306 ~ 318)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 23일차 (p.306 ~ 318)" />
   </component>
 </project>
