@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 24일차 (p.319 ~ 327)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story17/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/25일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자바튜닝/25일차/img_9.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="자바 성능 튜닝 이야기 25일차 (p.328 ~ 342)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_performance_tuning/story18/GCMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/자바튜닝/26일차/26일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -255,14 +243,7 @@
       <workItem from="1696470203949" duration="6252000" />
       <workItem from="1696636496121" duration="16039000" />
       <workItem from="1696811917264" duration="1938000" />
-      <workItem from="1696813908919" duration="10162000" />
-    </task>
-    <task id="LOCAL-00021" summary="헤드퍼스트 디자인 패턴 30일차 (p.399~414)">
-      <created>1694412278324</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1694412278324</updated>
+      <workItem from="1696813908919" duration="13214000" />
     </task>
     <task id="LOCAL-00022" summary="헤드퍼스트 디자인 패턴 31일차 (p.415~427)">
       <created>1694522700070</created>
@@ -600,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696846285107</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="자바 성능 튜닝 이야기 25일차 (p.328 ~ 342)">
+      <created>1696851755238</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1696851755239</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 5 프로그래밍 입문 5일차 (p.115 ~ 127)" />
     <MESSAGE value="자바 성능 튜닝 이야기  15일차 (p.183 ~ 199)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴  44일차 (p.580 ~ 598)" />
     <MESSAGE value="헤드퍼스트 디자인 패턴  45일차 (p.599 ~ 609)" />
@@ -643,6 +630,7 @@
     <MESSAGE value="자바 성능 튜닝 이야기 22일차 (p.295 ~ 305)" />
     <MESSAGE value="자바 성능 튜닝 이야기 23일차 (p.306 ~ 318)" />
     <MESSAGE value="자바 성능 튜닝 이야기 24일차 (p.319 ~ 327)" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 24일차 (p.319 ~ 327)" />
+    <MESSAGE value="자바 성능 튜닝 이야기 25일차 (p.328 ~ 342)" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 성능 튜닝 이야기 25일차 (p.328 ~ 342)" />
   </component>
 </project>
