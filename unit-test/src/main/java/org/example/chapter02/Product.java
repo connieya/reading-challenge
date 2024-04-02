@@ -1,4 +1,4 @@
-package org.example.chapter2;
+package org.example.chapter02;
 
 public enum Product {
     SHAMPOO,BOOK

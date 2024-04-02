@@ -1,16 +1,14 @@
 package chapter2;
 
-import org.example.chapter2.IStore;
-import org.example.chapter2.LondonCustomer;
-import org.example.chapter2.LondonStore;
-import org.example.chapter2.Product;
-import org.junit.jupiter.api.Assertions;
+import org.example.chapter02.IStore;
+import org.example.chapter02.LondonCustomer;
+import org.example.chapter02.LondonStore;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.example.chapter2.Product.*;
+import static org.example.chapter02.Product.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 

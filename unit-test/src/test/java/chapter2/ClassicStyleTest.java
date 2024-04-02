@@ -1,13 +1,11 @@
 package chapter2;
 
-import org.example.chapter2.ClassicCustomer;
-import org.example.chapter2.ClassicStore;
-import org.example.chapter2.Product;
-import org.junit.jupiter.api.Assertions;
+import org.example.chapter02.ClassicCustomer;
+import org.example.chapter02.ClassicStore;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.example.chapter2.Product.*;
+import static org.example.chapter02.Product.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ClassicStyleTest {
