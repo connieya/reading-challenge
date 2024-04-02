@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/oop" />
+    <file type="web" url="file://$PROJECT_DIR$/unit-test" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
