@@ -5,7 +5,17 @@ import org.example.chapter03.ByteSourceFactory;
 
 public class FlowController {
 
+    private ByteSource byteSource;
     private boolean useFile;
+
+    public FlowController() {
+    }
+
+    public FlowController(ByteSource byteSource) {
+        this.byteSource = byteSource;
+    }
+
+
 
     public FlowController(boolean useFile) {
         this.useFile = useFile;
