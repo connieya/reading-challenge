@@ -4,30 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 2일차 (p.51 ~ 63)">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/unit-test.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/2일차/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/2일차/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/AuthenticationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/Authenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/ByteEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FileDataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FileDataWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FlowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/Member.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)">
+      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/3일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/SocketDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/ByteSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/ByteSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/LimitPriceCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Turbo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/TurboPlane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/docs/2일차/2일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop/docs/2일차/2일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter2/ClassicCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter02/ClassicCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter2/ClassicStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter02/ClassicStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter2/IStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter02/IStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter2/LondonCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter02/LondonCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter2/LondonStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter02/LondonStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter02/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-test/src/test/java/chapter2/ClassicStyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/test/java/chapter2/ClassicStyleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-test/src/test/java/chapter2/LondonStyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/test/java/chapter2/LondonStyleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FileDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FileDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FlowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +371,8 @@
       <workItem from="1711972239252" duration="84000" />
       <workItem from="1711979891736" duration="1599000" />
       <workItem from="1712013532269" duration="1437000" />
-      <workItem from="1712015025847" duration="6051000" />
+      <workItem from="1712015025847" duration="10544000" />
+      <workItem from="1712137855773" duration="2308000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -718,7 +717,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -736,7 +735,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 5 프로그래밍 입문 13일차 (p.209 ~ 231)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 14일차 (p.232 ~ 248)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 15일차 (p.249 ~ 262)" />
     <MESSAGE value="자바 성능 튜닝 이야기 18일차 (p.237 ~ 260)" />
@@ -761,7 +759,8 @@
     <MESSAGE value="객체 지향과 디자인 패턴 1일차 (p.12 ~ 28)" />
     <MESSAGE value="단위 테스트 패턴 1일차 (p.29 ~ 50)" />
     <MESSAGE value="단위 테스트 2일차 (p.51 ~ 63)" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 2일차 (p.51 ~ 63)" />
+    <MESSAGE value="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,12 @@
 package org.example.chapter02;
 
-public class FileDataReader {
+import org.example.chapter03.ByteSource;
+
+public class FileDataReader implements ByteSource {
+
+    public FileDataReader() {
+    }
+
     public FileDataReader(String fileName) {
 
     }
