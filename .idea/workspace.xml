@@ -4,18 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 4일차 (p.79 ~ 95) 단위 테스트 구성, 테스트 픽스처">
-      <change afterPath="$PROJECT_DIR$/oop/docs/5일차/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/5일차/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/Encryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter04/Bounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter04/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter04/Point.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 4일차 (p.78 ~ 86) 인터페이스, 추상화, 테스트">
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/6일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/DataViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/GuiData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/CantSupportSquareException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/SpecialItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/ocp/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/ocp/ResponseSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/ocp/ZippedResponseSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/docs/5일차/5일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop/docs/5일차/5일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FlowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/단위테스트/docs/5일차/5일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/단위테스트/docs/5일차/5일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +121,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.chapter05.liskov" />
+      <recent name="org.example.chapter05" />
       <recent name="org.example.chapter04" />
       <recent name="org.example.chapter02" />
       <recent name="headfirst_design_pattern.combined.djview" />
-      <recent name="headfirst_design_pattern.combining.observer" />
-      <recent name="headfirst_design_pattern.combining.adapter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
@@ -365,7 +389,8 @@
       <workItem from="1712013532269" duration="1437000" />
       <workItem from="1712015025847" duration="10544000" />
       <workItem from="1712137855773" duration="11276000" />
-      <workItem from="1712189038431" duration="6382000" />
+      <workItem from="1712189038431" duration="14539000" />
+      <workItem from="1712271385284" duration="593000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -710,7 +735,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 19일차 (p.261 ~ 268)" />
     <MESSAGE value="자바 성능 튜닝 이야기 20일차 (p.269 ~ 276)" />
     <MESSAGE value="자바 성능 튜닝 이야기 21일차 (p.277 ~ 294)" />
     <MESSAGE value="자바 성능 튜닝 이야기 22일차 (p.295 ~ 305)" />
@@ -753,7 +777,8 @@
     <MESSAGE value="객체 지향과 디자인 패턴 3일차 (p.45 ~ 77)" />
     <MESSAGE value="단위 테스트 3일차 (p.64 ~ 78)" />
     <MESSAGE value="단위 테스트 4일차 (p.79 ~ 95) 단위 테스트 구성, 테스트 픽스처" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 4일차 (p.79 ~ 95) 단위 테스트 구성, 테스트 픽스처" />
+    <MESSAGE value="객체 지향과 디자인 패턴 4일차 (p.78 ~ 86) 인터페이스, 추상화, 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 4일차 (p.78 ~ 86) 인터페이스, 추상화, 테스트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
