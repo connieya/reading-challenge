@@ -4,28 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)">
-      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/3일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/3일차/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/SocketDataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/ByteSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/ByteSourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/LimitPriceCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/Turbo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter03/TurboPlane.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 3일차 (p.64 ~ 78)">
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter03/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter03/aaa/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter03/aaa/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter03/aaa/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/chapter3/CalculatorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/chapter3/CustomerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/chapter3/fixture/CustomerFactoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/4일차/4일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/4일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/5일차/5일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FileDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FileDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/FlowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter02/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/test/java/chapter2/LondonStyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/test/java/chapter2/LondonStyleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,11 +99,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.chapter04" />
       <recent name="org.example.chapter02" />
       <recent name="headfirst_design_pattern.combined.djview" />
       <recent name="headfirst_design_pattern.combining.observer" />
       <recent name="headfirst_design_pattern.combining.adapter" />
-      <recent name="headfirst_design_pattern.proxy.virtualproxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
@@ -132,7 +124,7 @@
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LondonStyleTest">
+  <component name="RunManager" selected="Gradle.CustomerFactoryTests">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -163,6 +155,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTests.sumOfTwoNumbersOne" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chapter3.CalculatorTests.sumOfTwoNumbersOne&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ClassicStyleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,7 +203,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ClassicStyleTest.purchaseSucceedsWhenEnoughInventory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CustomerFactoryTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
@@ -200,7 +216,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;chapter2.ClassicStyleTest.purchaseSucceedsWhenEnoughInventory&quot;" />
+            <option value="&quot;chapter3.fixture.CustomerFactoryTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -259,28 +275,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="unit-test [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="reading-challenge" />
       <method v="2">
@@ -296,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LondonStyleTest" />
+        <item itemvalue="Gradle.CustomerFactoryTests" />
         <item itemvalue="Gradle.LondonStyleTest.purchaseSucceedsWhenEnoughInventory" />
+        <item itemvalue="Gradle.CalculatorTests.sumOfTwoNumbersOne" />
+        <item itemvalue="Gradle.LondonStyleTest" />
         <item itemvalue="Gradle.ClassicStyleTest" />
-        <item itemvalue="Gradle.unit-test [clean]" />
-        <item itemvalue="Gradle.ClassicStyleTest.purchaseSucceedsWhenEnoughInventory" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +366,8 @@
       <workItem from="1711979891736" duration="1599000" />
       <workItem from="1712013532269" duration="1437000" />
       <workItem from="1712015025847" duration="10544000" />
-      <workItem from="1712137855773" duration="2308000" />
+      <workItem from="1712137855773" duration="11276000" />
+      <workItem from="1712189038431" duration="4361000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -717,7 +712,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,8 +730,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 5 프로그래밍 입문 14일차 (p.232 ~ 248)" />
-    <MESSAGE value="스프링 5 프로그래밍 입문 15일차 (p.249 ~ 262)" />
     <MESSAGE value="자바 성능 튜닝 이야기 18일차 (p.237 ~ 260)" />
     <MESSAGE value="자바 성능 튜닝 이야기 19일차 (p.261 ~ 268)" />
     <MESSAGE value="자바 성능 튜닝 이야기 20일차 (p.269 ~ 276)" />
@@ -760,7 +753,9 @@
     <MESSAGE value="단위 테스트 패턴 1일차 (p.29 ~ 50)" />
     <MESSAGE value="단위 테스트 2일차 (p.51 ~ 63)" />
     <MESSAGE value="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)" />
+    <MESSAGE value="객체 지향과 디자인 패턴 3일차 (p.45 ~ 77)" />
+    <MESSAGE value="단위 테스트 3일차 (p.64 ~ 78)" />
+    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 3일차 (p.64 ~ 78)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

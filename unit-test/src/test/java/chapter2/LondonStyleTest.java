@@ -24,8 +24,10 @@ public class LondonStyleTest {
         // when
         LondonCustomer customer = new LondonCustomer();
         boolean result = customer.purchase(store, SHAMPOO, 5);
+
         // then
         assertTrue(result);
+        assertEquals(0, store.getInventory(SHAMPOO));
         verify(store, times(1)).removeInventory(SHAMPOO, 5);
     }
 
@@ -34,7 +36,7 @@ public class LondonStyleTest {
     void purchaseFailsWhenNotEnoughInventory() throws Exception {
         // given
         IStore store = mock(LondonStore.class);
-        when(store.hasInsufficientInventory(SHAMPOO,15)).thenReturn(true);
+        when(store.hasInsufficientInventory(SHAMPOO, 15)).thenReturn(true);
 
         // when
         LondonCustomer customer = new LondonCustomer();
@@ -43,6 +45,6 @@ public class LondonStyleTest {
 
         // then
         assertFalse(result);
-        verify(store,times(0)).removeInventory(SHAMPOO,5);
+        verify(store, times(0)).removeInventory(SHAMPOO, 5);
     }
 }
