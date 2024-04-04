@@ -5,6 +5,8 @@ import org.example.chapter03.ByteSourceFactory;
 
 public class FlowController {
 
+    private Encryptor encryptor = new Encryptor();
+
     private ByteSource byteSource;
     private boolean useFile;
 
@@ -25,6 +27,7 @@ public class FlowController {
     private String fileName;
 
     public void process() {
+
         ByteSource source = ByteSourceFactory.getInstance().create();
 
         byte[] data = source.read();
