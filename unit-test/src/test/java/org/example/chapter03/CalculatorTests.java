@@ -1,4 +1,4 @@
-package chapter3;
+package org.example.chapter03;
 
 import org.example.chapter03.Calculator;
 import org.junit.jupiter.api.Assertions;

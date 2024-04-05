@@ -4,42 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 4일차 (p.78 ~ 86) 인터페이스, 추상화, 테스트">
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/6일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/6일차/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/DataViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/GuiData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/CantSupportSquareException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/SpecialItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/liskov/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/ocp/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/ocp/ResponseSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter05/ocp/ZippedResponseSender.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 5일차 (p.87 ~ 102) 상속 보다 조립">
+      <change afterPath="$PROJECT_DIR$/oop/docs/7일차/7일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/7일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/JobQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Locator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Transcoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter03/naming/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter03/naming/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter03/naming/DeliveryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/5일차/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/test/java/chapter2/ClassicStyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter02/ClassicStyleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/test/java/chapter2/LondonStyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter02/LondonStyleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/test/java/chapter3/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter03/CalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/test/java/chapter3/CustomerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter03/CustomerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-test/src/test/java/chapter3/fixture/CustomerFactoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter03/fixture/CustomerFactoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/단위테스트/docs/5일차/5일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/단위테스트/docs/5일차/5일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +56,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -99,26 +82,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/STUDY/Unit-Test-Study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/STUDY/Unit-Test-Study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.chapter05.liskov" />
@@ -141,12 +126,18 @@
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\38일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\37일차" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.chapter03.naming" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="java_performance_tuning.story08.synchro" />
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CustomerFactoryTests">
+  <component name="RunManager" selected="Gradle.DeliveryTest.detectsAnInvalidDeliveryDate">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -177,54 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTests.sumOfTwoNumbersOne" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;chapter3.CalculatorTests.sumOfTwoNumbersOne&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ClassicStyleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;chapter2.ClassicStyleTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="CustomerFactoryTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -249,7 +192,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LondonStyleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeliveryTest.canDetectAnInvalidDeliveryDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
@@ -262,7 +205,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;chapter2.LondonStyleTest&quot;" />
+            <option value="&quot;org.example.chapter03.naming.DeliveryTest.canDetectAnInvalidDeliveryDate&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliveryTest.detectsAnInvalidDeliveryDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.chapter03.naming.DeliveryTest.detectsAnInvalidDeliveryDate&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliveryTest.isDeliveryValidInvalidDateReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.chapter03.naming.DeliveryTest.isDeliveryValidInvalidDateReturnFalse&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -312,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeliveryTest.detectsAnInvalidDeliveryDate" />
+        <item itemvalue="Gradle.DeliveryTest.canDetectAnInvalidDeliveryDate" />
+        <item itemvalue="Gradle.DeliveryTest.isDeliveryValidInvalidDateReturnFalse" />
         <item itemvalue="Gradle.CustomerFactoryTests" />
         <item itemvalue="Gradle.LondonStyleTest.purchaseSucceedsWhenEnoughInventory" />
-        <item itemvalue="Gradle.CalculatorTests.sumOfTwoNumbersOne" />
-        <item itemvalue="Gradle.LondonStyleTest" />
-        <item itemvalue="Gradle.ClassicStyleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +381,7 @@
       <workItem from="1712015025847" duration="10544000" />
       <workItem from="1712137855773" duration="11276000" />
       <workItem from="1712189038431" duration="14539000" />
-      <workItem from="1712271385284" duration="593000" />
+      <workItem from="1712271385284" duration="7058000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -735,7 +726,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,7 +744,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 20일차 (p.269 ~ 276)" />
     <MESSAGE value="자바 성능 튜닝 이야기 21일차 (p.277 ~ 294)" />
     <MESSAGE value="자바 성능 튜닝 이야기 22일차 (p.295 ~ 305)" />
     <MESSAGE value="자바 성능 튜닝 이야기 23일차 (p.306 ~ 318)" />
@@ -778,7 +768,8 @@
     <MESSAGE value="단위 테스트 3일차 (p.64 ~ 78)" />
     <MESSAGE value="단위 테스트 4일차 (p.79 ~ 95) 단위 테스트 구성, 테스트 픽스처" />
     <MESSAGE value="객체 지향과 디자인 패턴 4일차 (p.78 ~ 86) 인터페이스, 추상화, 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 4일차 (p.78 ~ 86) 인터페이스, 추상화, 테스트" />
+    <MESSAGE value="객체 지향과 디자인 패턴 5일차 (p.87 ~ 102) 상속 보다 조립" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 5일차 (p.87 ~ 102) 상속 보다 조립" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

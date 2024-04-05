@@ -1,4 +1,4 @@
-package chapter3;
+package org.example.chapter03;
 
 import org.example.chapter02.LondonCustomer;
 import org.example.chapter02.LondonStore;

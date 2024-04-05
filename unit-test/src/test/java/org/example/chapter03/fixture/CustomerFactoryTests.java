@@ -1,9 +1,8 @@
-package chapter3.fixture;
+package org.example.chapter03.fixture;
 
 import org.example.chapter03.aaa.Customer;
 import org.example.chapter03.aaa.Product;
 import org.example.chapter03.aaa.Store;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

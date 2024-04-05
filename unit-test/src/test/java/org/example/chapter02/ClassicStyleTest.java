@@ -1,7 +1,5 @@
-package chapter2;
+package org.example.chapter02;
 
-import org.example.chapter02.ClassicCustomer;
-import org.example.chapter02.ClassicStore;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
