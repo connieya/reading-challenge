@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위테스트 5일차 (p.96 ~ 109) 단위 테스트 명명법">
-      <change afterPath="$PROJECT_DIR$/oop/docs/7일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Assembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/FfmpegTransCoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/FileJobQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/JobCLI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/JobData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/BodyRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/FooterRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/HeaderRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/IRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/MessageRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter04/MessageRendererTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/6일차/6일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/6일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/6일차/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/docs/7일차/7일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop/docs/7일차/7일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/JobQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/JobQueue.java" afterDir="false" />
-    </list>
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 6일차 (p.104 ~ 136) SOLID" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -388,7 +365,7 @@
       <workItem from="1712137855773" duration="11276000" />
       <workItem from="1712189038431" duration="14539000" />
       <workItem from="1712271385284" duration="10934000" />
-      <workItem from="1712368860824" duration="3192000" />
+      <workItem from="1712368860824" duration="3898000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -733,7 +710,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,7 +728,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 22일차 (p.295 ~ 305)" />
     <MESSAGE value="자바 성능 튜닝 이야기 23일차 (p.306 ~ 318)" />
     <MESSAGE value="자바 성능 튜닝 이야기 24일차 (p.319 ~ 327)" />
     <MESSAGE value="자바 성능 튜닝 이야기 25일차 (p.328 ~ 342)" />
@@ -776,7 +752,8 @@
     <MESSAGE value="객체 지향과 디자인 패턴 4일차 (p.78 ~ 86) 인터페이스, 추상화, 테스트" />
     <MESSAGE value="객체 지향과 디자인 패턴 5일차 (p.87 ~ 102) 상속 보다 조립" />
     <MESSAGE value="단위테스트 5일차 (p.96 ~ 109) 단위 테스트 명명법" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위테스트 5일차 (p.96 ~ 109) 단위 테스트 명명법" />
+    <MESSAGE value="객체 지향과 디자인 패턴 6일차 (p.104 ~ 136) SOLID" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 6일차 (p.104 ~ 136) SOLID" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
