@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 6일차 (p.104 ~ 136) SOLID" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트  6일차 (p.113 ~ 124) 좋은 단위 테스트 : 회귀 방지, 리팩토링 내성">
+      <change afterPath="$PROJECT_DIR$/oop/docs/8일차/8일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/extreme/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/extreme/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter04/extreme/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter04/extreme/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/7일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -102,16 +116,17 @@
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\decorator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Development\reading-challenge\단위테스트\docs" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\48일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\47일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\41일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\38일차" />
-      <recent name="C:\reading-challenge\src\main\헤드퍼스트\37일차" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.chapter04.extreme" />
       <recent name="org.example.chapter04" />
       <recent name="org.example.chapter03.naming" />
     </key>
@@ -120,7 +135,7 @@
       <recent name="pattern_observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MessageRendererTest.renderingAMessage">
+  <component name="RunManager" selected="Gradle.UserTest.test">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -199,30 +214,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeliveryTest.isDeliveryValidInvalidDateReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.chapter03.naming.DeliveryTest.isDeliveryValidInvalidDateReturnFalse&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="MessageRendererTest.messageRendererUsesCorrectSubRenderers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -271,6 +262,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="UserTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.chapter04.extreme.UserTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="reading-challenge" />
       <method v="2">
@@ -286,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserTest.test" />
         <item itemvalue="Gradle.MessageRendererTest.renderingAMessage" />
         <item itemvalue="Gradle.MessageRendererTest.messageRendererUsesCorrectSubRenderers" />
         <item itemvalue="Gradle.DeliveryTest.detectsAnInvalidDeliveryDate" />
         <item itemvalue="Gradle.DeliveryTest.canDetectAnInvalidDeliveryDate" />
-        <item itemvalue="Gradle.DeliveryTest.isDeliveryValidInvalidDateReturnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -366,6 +381,8 @@
       <workItem from="1712189038431" duration="14539000" />
       <workItem from="1712271385284" duration="10934000" />
       <workItem from="1712368860824" duration="3898000" />
+      <workItem from="1712405641938" duration="4638000" />
+      <workItem from="1712455143082" duration="1582000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -710,7 +727,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,7 +745,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 23일차 (p.306 ~ 318)" />
     <MESSAGE value="자바 성능 튜닝 이야기 24일차 (p.319 ~ 327)" />
     <MESSAGE value="자바 성능 튜닝 이야기 25일차 (p.328 ~ 342)" />
     <MESSAGE value="자바 성능 튜닝 이야기 26일차 (p.343 ~ 362)" />
@@ -753,7 +769,8 @@
     <MESSAGE value="객체 지향과 디자인 패턴 5일차 (p.87 ~ 102) 상속 보다 조립" />
     <MESSAGE value="단위테스트 5일차 (p.96 ~ 109) 단위 테스트 명명법" />
     <MESSAGE value="객체 지향과 디자인 패턴 6일차 (p.104 ~ 136) SOLID" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 6일차 (p.104 ~ 136) SOLID" />
+    <MESSAGE value="단위 테스트  6일차 (p.113 ~ 124) 좋은 단위 테스트 : 회귀 방지, 리팩토링 내성" />
+    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트  6일차 (p.113 ~ 124) 좋은 단위 테스트 : 회귀 방지, 리팩토링 내성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
