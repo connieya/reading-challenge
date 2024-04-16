@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트  6일차 (p.113 ~ 124) 좋은 단위 테스트 : 회귀 방지, 리팩토링 내성">
-      <change afterPath="$PROJECT_DIR$/oop/docs/8일차/8일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/extreme/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter04/extreme/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter04/extreme/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter04/extreme/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/7일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_4.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴  7일차 (p.137 ~ 152) DI 와 서비스 로케이터 , DI 생성자 방식, 설정 메서드 방식">
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/ServiceLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/locator/JobQueueLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/locator/MyServiceLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/locator/ServiceLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/locator/generic/JobCLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/locator/generic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/locator/generic/ServiceLocator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/docs/8일차/8일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop/docs/8일차/8일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter06/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -131,6 +130,7 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.chapter06.locator.generic" />
       <recent name="java_performance_tuning.story08.synchro" />
       <recent name="pattern_observer" />
     </key>
@@ -382,7 +382,10 @@
       <workItem from="1712271385284" duration="10934000" />
       <workItem from="1712368860824" duration="3898000" />
       <workItem from="1712405641938" duration="4638000" />
-      <workItem from="1712455143082" duration="1582000" />
+      <workItem from="1712455143082" duration="2237000" />
+      <workItem from="1712581109841" duration="854000" />
+      <workItem from="1712713677010" duration="440000" />
+      <workItem from="1713306444384" duration="4382000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -727,7 +730,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -745,7 +748,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 24일차 (p.319 ~ 327)" />
     <MESSAGE value="자바 성능 튜닝 이야기 25일차 (p.328 ~ 342)" />
     <MESSAGE value="자바 성능 튜닝 이야기 26일차 (p.343 ~ 362)" />
     <MESSAGE value="자바 성능 튜닝 이야기 27일차 (p.363 ~ 378)" />
@@ -770,7 +772,8 @@
     <MESSAGE value="단위테스트 5일차 (p.96 ~ 109) 단위 테스트 명명법" />
     <MESSAGE value="객체 지향과 디자인 패턴 6일차 (p.104 ~ 136) SOLID" />
     <MESSAGE value="단위 테스트  6일차 (p.113 ~ 124) 좋은 단위 테스트 : 회귀 방지, 리팩토링 내성" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트  6일차 (p.113 ~ 124) 좋은 단위 테스트 : 회귀 방지, 리팩토링 내성" />
+    <MESSAGE value="객체 지향과 디자인 패턴  7일차 (p.137 ~ 152) DI 와 서비스 로케이터 , DI 생성자 방식, 설정 메서드 방식" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴  7일차 (p.137 ~ 152) DI 와 서비스 로케이터 , DI 생성자 방식, 설정 메서드 방식" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

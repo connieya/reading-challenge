@@ -21,8 +21,13 @@ public class Worker {
     }
 
     public void run() {
+        // 서비스 로케이터 이용해서 의존 객체 구함
+        ServiceLocator locator = ServiceLocator.getInstance();
+        JobQueue jobQueue = locator.getJobQueue();
+        Transcoder transcoder = locator.getTranscoder();
 
-        // 작성 , 콘크리트 클래스를 사용
-        JobQueue jobQueue = new FileJobQueue(); // DIP 위반
+        // 의존 객체 사용
+
+
     }
 }
