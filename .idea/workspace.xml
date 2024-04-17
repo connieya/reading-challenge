@@ -4,17 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴  8일차 (p.152 ~ 172) 서비스 로케이터 구현">
-      <change afterPath="$PROJECT_DIR$/oop/docs/9일차/9일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/9일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/9일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/strategy/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/strategy/DiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/strategy/FirstGuestDiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/strategy/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/strategy/ex/ItemDiscountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/strategy/ex/TotalPriceDiscountStrategy.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴  9일차 (p.174 ~ 181) 디자인 패턴 - 전략 패턴">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/1일차/1일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/10일차/10일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/10일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/10일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/state/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/state/refacoring/NoCoinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/state/refacoring/SelectableState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/state/refacoring/SoundUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/state/refacoring/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/state/refacoring/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/AuthException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/DbAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/LdapAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/LdapClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/LdapContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/ex/SuperCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/ex/ZetEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/template_method/refactor/LdapAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -24,6 +43,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/effective-java">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/oop">
       <ProjectState />
     </projectState>
@@ -101,11 +123,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.chapter07.state.refacoring" />
+      <recent name="org.example.chapter07.template_method" />
       <recent name="org.example.chapter06" />
       <recent name="org.example.chapter04" />
       <recent name="org.example.chapter05.liskov" />
-      <recent name="org.example.chapter05" />
-      <recent name="org.example.chapter02" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
@@ -130,6 +152,7 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.chapter07.template_method" />
       <recent name="org.example.chapter06.locator.generic" />
       <recent name="java_performance_tuning.story08.synchro" />
       <recent name="pattern_observer" />
@@ -385,7 +408,7 @@
       <workItem from="1712455143082" duration="2237000" />
       <workItem from="1712581109841" duration="854000" />
       <workItem from="1712713677010" duration="440000" />
-      <workItem from="1713306444384" duration="7463000" />
+      <workItem from="1713306444384" duration="16615000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -730,7 +753,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,7 +771,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 26일차 (p.343 ~ 362)" />
     <MESSAGE value="자바 성능 튜닝 이야기 27일차 (p.363 ~ 378)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 16일차 (p.263 ~ 278)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 17일차 (p.279 ~ 319)" />
@@ -773,7 +795,8 @@
     <MESSAGE value="단위 테스트  6일차 (p.113 ~ 124) 좋은 단위 테스트 : 회귀 방지, 리팩토링 내성" />
     <MESSAGE value="객체 지향과 디자인 패턴  7일차 (p.137 ~ 152) DI 와 서비스 로케이터 , DI 생성자 방식, 설정 메서드 방식" />
     <MESSAGE value="객체 지향과 디자인 패턴  8일차 (p.152 ~ 172) 서비스 로케이터 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴  8일차 (p.152 ~ 172) 서비스 로케이터 구현" />
+    <MESSAGE value="객체 지향과 디자인 패턴  9일차 (p.174 ~ 181) 디자인 패턴 - 전략 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴  9일차 (p.174 ~ 181) 디자인 패턴 - 전략 패턴" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
