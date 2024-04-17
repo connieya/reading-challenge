@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="이팩티브 자바  1일차 (p.07 ~ 13) 생성자 대신 정적 팩토리 메서드를 고려하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/2일차/2일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item2/NutritionFacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item2/v2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item2/v2/NutritionFacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item2/v3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item2/v3/NutritionFacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item2/v3/NyPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item2/v3/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/img_8.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트">
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/mockandstub/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/mockandstub/IDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/mockandstub/IEmailGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/mockandstub/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter05/mockandstub/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter05/mockandstub/StockMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/8일차/8일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/8일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/8일차/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/단위테스트/docs/7일차/7일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/단위테스트/docs/7일차/7일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -131,6 +127,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.chapter05.mockandstub" />
       <recent name="org.example.chapter04.extreme" />
       <recent name="org.example.chapter04" />
       <recent name="org.example.chapter03.naming" />
@@ -143,7 +140,7 @@
       <recent name="java_performance_tuning.story08.synchro" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserTest.test">
+  <component name="RunManager" selected="Gradle.ControllerTest.creatingAReport">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -174,7 +171,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeliveryTest.canDetectAnInvalidDeliveryDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
@@ -187,7 +184,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.chapter03.naming.DeliveryTest.canDetectAnInvalidDeliveryDate&quot;" />
+            <option value="&quot;org.example.chapter05.mockandstub.ControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,7 +195,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeliveryTest.detectsAnInvalidDeliveryDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ControllerTest.creatingAReport" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
@@ -211,7 +208,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.chapter03.naming.DeliveryTest.detectsAnInvalidDeliveryDate&quot;" />
+            <option value="&quot;org.example.chapter05.mockandstub.ControllerTest.creatingAReport&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -309,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ControllerTest.creatingAReport" />
+        <item itemvalue="Gradle.ControllerTest" />
         <item itemvalue="Gradle.UserTest.test" />
         <item itemvalue="Gradle.MessageRendererTest.renderingAMessage" />
         <item itemvalue="Gradle.MessageRendererTest.messageRendererUsesCorrectSubRenderers" />
-        <item itemvalue="Gradle.DeliveryTest.detectsAnInvalidDeliveryDate" />
-        <item itemvalue="Gradle.DeliveryTest.canDetectAnInvalidDeliveryDate" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +390,7 @@
       <workItem from="1712455143082" duration="2237000" />
       <workItem from="1712581109841" duration="854000" />
       <workItem from="1712713677010" duration="440000" />
-      <workItem from="1713306444384" duration="22869000" />
+      <workItem from="1713306444384" duration="25567000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -738,7 +735,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 5 프로그래밍 입문 16일차 (p.263 ~ 278)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 17일차 (p.279 ~ 319)" />
     <MESSAGE value="자바 성능 튜닝 이야기 28일차 (p.379 ~ 390)" />
     <MESSAGE value="자바 성능 튜닝 이야기 29일차 (p.461 ~ 469)" />
@@ -781,7 +777,8 @@
     <MESSAGE value="객체 지향과 디자인 패턴  8일차 (p.152 ~ 172) 서비스 로케이터 구현" />
     <MESSAGE value="객체 지향과 디자인 패턴  9일차 (p.174 ~ 181) 디자인 패턴 - 전략 패턴" />
     <MESSAGE value="이팩티브 자바  1일차 (p.07 ~ 13) 생성자 대신 정적 팩토리 메서드를 고려하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="이팩티브 자바  1일차 (p.07 ~ 13) 생성자 대신 정적 팩토리 메서드를 고려하라" />
+    <MESSAGE value="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
