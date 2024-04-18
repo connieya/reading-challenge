@@ -4,16 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트">
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/mockandstub/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/mockandstub/IDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/mockandstub/IEmailGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/mockandstub/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter05/mockandstub/ControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter05/mockandstub/StockMockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/8일차/8일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/8일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/8일차/img_1.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 8일차 (p.147 ~ 154)  목과 테스트 취약성 , 목과 스텁의 구분">
+      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/11일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/EncryptionOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/FileOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/FileOutImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/detailsleaked/AfterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/detailsleaked/AfterUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/detailsleaked/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/detailsleaked/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/9일차/9일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/9일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/9일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/9일차/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -51,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -103,11 +115,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.chapter07.proxy" />
       <recent name="org.example.chapter07.state.refacoring" />
       <recent name="org.example.chapter07.template_method" />
       <recent name="org.example.chapter06" />
       <recent name="org.example.chapter04" />
-      <recent name="org.example.chapter05.liskov" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
@@ -390,7 +402,8 @@
       <workItem from="1712455143082" duration="2237000" />
       <workItem from="1712581109841" duration="854000" />
       <workItem from="1712713677010" duration="440000" />
-      <workItem from="1713306444384" duration="25567000" />
+      <workItem from="1713306444384" duration="25593000" />
+      <workItem from="1713426935007" duration="9710000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -735,7 +748,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,7 +766,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 5 프로그래밍 입문 17일차 (p.279 ~ 319)" />
     <MESSAGE value="자바 성능 튜닝 이야기 28일차 (p.379 ~ 390)" />
     <MESSAGE value="자바 성능 튜닝 이야기 29일차 (p.461 ~ 469)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 18일차 (p.320 ~ 351)" />
@@ -778,7 +790,8 @@
     <MESSAGE value="객체 지향과 디자인 패턴  9일차 (p.174 ~ 181) 디자인 패턴 - 전략 패턴" />
     <MESSAGE value="이팩티브 자바  1일차 (p.07 ~ 13) 생성자 대신 정적 팩토리 메서드를 고려하라" />
     <MESSAGE value="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트" />
+    <MESSAGE value="단위 테스트 8일차 (p.147 ~ 154)  목과 테스트 취약성 , 목과 스텁의 구분" />
+    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 8일차 (p.147 ~ 154)  목과 테스트 취약성 , 목과 스텁의 구분" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
