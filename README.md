@@ -177,5 +177,5 @@
 <summary> 2024.04.17 ~ </summary>
 
 - [1일차 : 2024-04-17 (p.7 ~ p.13) / 생성자 대신 정적 팩토리 메서드를 고려하라 ](effective-java/docs/1일차/1일차.md)
-- [2일차 : 2024-04-18 (p.14 ~ ) /  ](effective-java/docs/2일차/2일차.md)
+- [2일차 : 2024-04-18 (p.14 ~ 22  ) / 생성자에 매개변수가 많다면 빌더를 고려하라.  ](effective-java/docs/2일차/2일차.md)
 </details>
