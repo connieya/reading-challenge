@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 8일차 (p.147 ~ 154)  목과 테스트 취약성 , 목과 스텁의 구분">
-      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/11일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/11일차/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/EncryptionOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/FileOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/FileOutImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/RealImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/detailsleaked/AfterUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/detailsleaked/AfterUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/detailsleaked/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter05/detailsleaked/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/9일차/9일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/9일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/9일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/9일차/img_2.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="이펙티브 자바 2일 차  : 생성자에 매개변수가 많다면 빌더를 고려하라.">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/3일차/3일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item3/Elvis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item3/v2/Elvis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -403,7 +385,8 @@
       <workItem from="1712581109841" duration="854000" />
       <workItem from="1712713677010" duration="440000" />
       <workItem from="1713306444384" duration="25593000" />
-      <workItem from="1713426935007" duration="9710000" />
+      <workItem from="1713426935007" duration="11021000" />
+      <workItem from="1713474522434" duration="3580000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -748,7 +731,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,8 +749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="자바 성능 튜닝 이야기 28일차 (p.379 ~ 390)" />
-    <MESSAGE value="자바 성능 튜닝 이야기 29일차 (p.461 ~ 469)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 18일차 (p.320 ~ 351)" />
     <MESSAGE value="자바 성능 튜닝 이야기 30일차 (p.425 ~ 438)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 20일차 (p.370 ~ 381)" />
@@ -791,7 +772,9 @@
     <MESSAGE value="이팩티브 자바  1일차 (p.07 ~ 13) 생성자 대신 정적 팩토리 메서드를 고려하라" />
     <MESSAGE value="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트" />
     <MESSAGE value="단위 테스트 8일차 (p.147 ~ 154)  목과 테스트 취약성 , 목과 스텁의 구분" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 8일차 (p.147 ~ 154)  목과 테스트 취약성 , 목과 스텁의 구분" />
+    <MESSAGE value="단위 테스트 9일차 (p.154 ~ 165)  목과 스텁 , CQS" />
+    <MESSAGE value="이펙티브 자바 2일 차  : 생성자에 매개변수가 많다면 빌더를 고려하라." />
+    <option name="LAST_COMMIT_MESSAGE" value="이펙티브 자바 2일 차  : 생성자에 매개변수가 많다면 빌더를 고려하라." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
