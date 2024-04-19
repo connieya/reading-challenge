@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="이펙티브 자바 2일 차  : 생성자에 매개변수가 많다면 빌더를 고려하라.">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/3일차/3일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item3/Elvis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item3/v2/Elvis.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="이펙티브 자바 3일 차  : private 생성자나 열거 타입으로 싱글턴임을 보증하라 , 인스턴스화를 막으려거든 private 생성자를 사용하라 , 자원을 직접 명시하지 말고 의존 객체 주입을  사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/4일차/4일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item3/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item3/ex/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item3/ex/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item3/ex/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/ListUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/docs/11일차/11일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop/docs/11일차/11일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/proxy/Image.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +391,7 @@
       <workItem from="1712713677010" duration="440000" />
       <workItem from="1713306444384" duration="25593000" />
       <workItem from="1713426935007" duration="11021000" />
-      <workItem from="1713474522434" duration="3580000" />
+      <workItem from="1713474522434" duration="6989000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -731,7 +736,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -749,7 +754,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="스프링 5 프로그래밍 입문 18일차 (p.320 ~ 351)" />
     <MESSAGE value="자바 성능 튜닝 이야기 30일차 (p.425 ~ 438)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 20일차 (p.370 ~ 381)" />
     <MESSAGE value="스프링 5 프로그래밍 입문 21일차 (p.382 ~ 404)" />
@@ -774,7 +778,8 @@
     <MESSAGE value="단위 테스트 8일차 (p.147 ~ 154)  목과 테스트 취약성 , 목과 스텁의 구분" />
     <MESSAGE value="단위 테스트 9일차 (p.154 ~ 165)  목과 스텁 , CQS" />
     <MESSAGE value="이펙티브 자바 2일 차  : 생성자에 매개변수가 많다면 빌더를 고려하라." />
-    <option name="LAST_COMMIT_MESSAGE" value="이펙티브 자바 2일 차  : 생성자에 매개변수가 많다면 빌더를 고려하라." />
+    <MESSAGE value="이펙티브 자바 3일 차  : private 생성자나 열거 타입으로 싱글턴임을 보증하라 , 인스턴스화를 막으려거든 private 생성자를 사용하라 , 자원을 직접 명시하지 말고 의존 객체 주입을  사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="이펙티브 자바 3일 차  : private 생성자나 열거 타입으로 싱글턴임을 보증하라 , 인스턴스화를 막으려거든 private 생성자를 사용하라 , 자원을 직접 명시하지 말고 의존 객체 주입을  사용하라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
