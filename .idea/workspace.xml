@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 12일차 : 옵저버 패턴">
-      <change afterPath="$PROJECT_DIR$/oop/docs/13일차/13일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/13일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/docs/14일차/14일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/BombObstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/CloningAttackBoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/DashSmallFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/EasyStageEnemyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/EnemyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/HardEnemyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/MissileSmallFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/RockObstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/SmallFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/StrongAttackBoss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effective-java/docs/4일차/4일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/docs/4일차/4일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/docs/14일차/14일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop/docs/14일차/14일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,11 +107,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.chapter07.factory" />
       <recent name="org.example.chapter05.systemcomunication" />
       <recent name="org.example.chapter07.observer.refactor" />
       <recent name="org.example.chapter07.observer" />
       <recent name="org.example.chapter07.adapter" />
-      <recent name="org.example.chapter07.proxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
@@ -390,7 +399,8 @@
       <workItem from="1713474522434" duration="12550000" />
       <workItem from="1713533356809" duration="3562000" />
       <workItem from="1713579719856" duration="8045000" />
-      <workItem from="1713658389875" duration="2433000" />
+      <workItem from="1713658391238" duration="597000" />
+      <workItem from="1713734977351" duration="1903000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
