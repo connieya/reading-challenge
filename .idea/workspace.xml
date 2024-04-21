@@ -4,22 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 12일차 : 옵저버 패턴">
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/BombObstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/CloningAttackBoss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/DashSmallFlight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/EasyStageEnemyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/EnemyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/HardEnemyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/MissileSmallFlight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/RockObstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/SmallFlight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/Stage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/factory/StrongAttackBoss.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴 14일차 : 파사드 패턴 , 추상 팩토리 패턴">
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter06/output/PriceEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter06/output/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter06/state/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter06/state/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter06/stylecompare/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter06/stylecompare/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter06/output/CustomerControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter06/state/CustomerControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter06/stylecompare/ArticleExtensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/test/java/org/example/chapter06/stylecompare/CustomerControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/12일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/12일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/12일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/12일차/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/docs/14일차/14일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop/docs/14일차/14일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/단위테스트/docs/12일차/12일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/단위테스트/docs/12일차/12일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,11 +109,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.chapter06" />
       <recent name="org.example.chapter07.factory" />
       <recent name="org.example.chapter05.systemcomunication" />
       <recent name="org.example.chapter07.observer.refactor" />
       <recent name="org.example.chapter07.observer" />
-      <recent name="org.example.chapter07.adapter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
@@ -144,7 +146,7 @@
       <recent name="org.example.chapter07.template_method" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ControllerTest.creatingAReport">
+  <component name="RunManager" selected="Gradle.CustomerControllerTests">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -223,7 +225,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MessageRendererTest.messageRendererUsesCorrectSubRenderers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CustomerControllerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
@@ -236,7 +238,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.chapter04.MessageRendererTest.messageRendererUsesCorrectSubRenderers&quot;" />
+            <option value="&quot;org.example.chapter06.state.CustomerControllerTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -310,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CustomerControllerTests" />
         <item itemvalue="Gradle.ControllerTest.creatingAReport" />
         <item itemvalue="Gradle.ControllerTest" />
         <item itemvalue="Gradle.UserTest.test" />
         <item itemvalue="Gradle.MessageRendererTest.renderingAMessage" />
-        <item itemvalue="Gradle.MessageRendererTest.messageRendererUsesCorrectSubRenderers" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +402,7 @@
       <workItem from="1713533356809" duration="3562000" />
       <workItem from="1713579719856" duration="8045000" />
       <workItem from="1713658391238" duration="597000" />
-      <workItem from="1713734977351" duration="1903000" />
+      <workItem from="1713734977351" duration="6782000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -745,7 +747,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,7 +765,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체 지향과 디자인 패턴 1일차 (p.12 ~ 28)" />
     <MESSAGE value="단위 테스트 패턴 1일차 (p.29 ~ 50)" />
     <MESSAGE value="단위 테스트 2일차 (p.51 ~ 63)" />
     <MESSAGE value="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)" />
@@ -788,7 +789,8 @@
     <MESSAGE value="단위 테스트 10일 차 : 목과 테스트 취약성 : 육각형 아키텍처" />
     <MESSAGE value="단위 테스트 11일 차 : 단위 테스트 런던파 , 고전파 재고 , 5장 요약" />
     <MESSAGE value="객체 지향과 디자인 패턴 12일차 : 옵저버 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 12일차 : 옵저버 패턴" />
+    <MESSAGE value="객체 지향과 디자인 패턴 14일차 : 파사드 패턴 , 추상 팩토리 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴 14일차 : 파사드 패턴 , 추상 팩토리 패턴" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
