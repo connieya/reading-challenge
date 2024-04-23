@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 12일차 :  단위 테스트 스타일">
-      <change afterPath="$PROJECT_DIR$/oop/docs/15일차/15일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/composite/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/composite/DeviceGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/composite/PowerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/null_pattern/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/null_pattern/NullSpecialDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/null_pattern/SpecialDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/13일차/13일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/13일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/13일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/대규모시스템/1일차/1일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/대규모시스템/1일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/대규모시스템/2일차/2일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/대규모시스템/2일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/대규모시스템/2일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/대규모시스템/2일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/대규모시스템/2일차/img_3.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체지향과 디자인 패턴 15일차 :   컴포지트(Composite) 패턴 , 널(Null) 객체 패턴">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/5일차/5일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item7/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/composite/PowerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/composite/PowerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,11 +97,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.chapter07.null_pattern" />
       <recent name="org.example.chapter06" />
       <recent name="org.example.chapter07.factory" />
       <recent name="org.example.chapter05.systemcomunication" />
       <recent name="org.example.chapter07.observer.refactor" />
-      <recent name="org.example.chapter07.observer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
@@ -406,7 +392,7 @@
       <workItem from="1713658391238" duration="597000" />
       <workItem from="1713734977351" duration="7001000" />
       <workItem from="1713782019044" duration="6907000" />
-      <workItem from="1713845763577" duration="4237000" />
+      <workItem from="1713845763577" duration="5766000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -751,7 +737,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,7 +755,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 2일차 (p.51 ~ 63)" />
     <MESSAGE value="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)" />
     <MESSAGE value="객체 지향과 디자인 패턴 3일차 (p.45 ~ 77)" />
     <MESSAGE value="단위 테스트 3일차 (p.64 ~ 78)" />
@@ -794,7 +779,8 @@
     <MESSAGE value="객체 지향과 디자인 패턴 12일차 : 옵저버 패턴" />
     <MESSAGE value="객체 지향과 디자인 패턴 14일차 : 파사드 패턴 , 추상 팩토리 패턴" />
     <MESSAGE value="단위 테스트 12일차 :  단위 테스트 스타일" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 12일차 :  단위 테스트 스타일" />
+    <MESSAGE value="객체지향과 디자인 패턴 15일차 :   컴포지트(Composite) 패턴 , 널(Null) 객체 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체지향과 디자인 패턴 15일차 :   컴포지트(Composite) 패턴 , 널(Null) 객체 패턴" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

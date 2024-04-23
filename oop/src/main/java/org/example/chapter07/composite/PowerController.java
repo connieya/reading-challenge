@@ -9,7 +9,7 @@ public class PowerController {
 
     public void turnGroupOn(Long groupId) {
         DeviceGroup group = findGroupById(groupId);
-        group.turnAllOn();
+//        group.turnAllOn();
     }
 
     private DeviceGroup findGroupById(Long groupId) {
