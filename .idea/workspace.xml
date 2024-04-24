@@ -4,12 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체지향과 디자인 패턴 15일차 :   컴포지트(Composite) 패턴 , 널(Null) 객체 패턴">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/5일차/5일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item7/Stack.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="이팩티브 자바 5일차  : 다 쓴 객체 참조를 해제하라">
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/14일차/14일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/14일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/14일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/14일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/14일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/14일차/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/14일차/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/2일차/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/2일차/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/3일차/3일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/3일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/3일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/3일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/3일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/3일차/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/3일차/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/4일차/4일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/5일차/5일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/5일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/대규모시스템/5일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/운영체제-세번째이야기/1일차/1일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/운영체제-세번째이야기/2일차/2일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/운영체제-세번째이야기/3일차/3일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/composite/PowerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop/src/main/java/org/example/chapter07/composite/PowerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/대규모시스템/2일차/2일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/대규모시스템/2일차/2일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,7 +413,9 @@
       <workItem from="1713658391238" duration="597000" />
       <workItem from="1713734977351" duration="7001000" />
       <workItem from="1713782019044" duration="6907000" />
-      <workItem from="1713845763577" duration="5766000" />
+      <workItem from="1713845763577" duration="12484000" />
+      <workItem from="1713908715997" duration="3809000" />
+      <workItem from="1713938706736" duration="6870000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -737,7 +760,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +778,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체 지향과 디자인 패턴 2일차 (p.29 ~ 44)" />
     <MESSAGE value="객체 지향과 디자인 패턴 3일차 (p.45 ~ 77)" />
     <MESSAGE value="단위 테스트 3일차 (p.64 ~ 78)" />
     <MESSAGE value="단위 테스트 4일차 (p.79 ~ 95) 단위 테스트 구성, 테스트 픽스처" />
@@ -780,7 +802,8 @@
     <MESSAGE value="객체 지향과 디자인 패턴 14일차 : 파사드 패턴 , 추상 팩토리 패턴" />
     <MESSAGE value="단위 테스트 12일차 :  단위 테스트 스타일" />
     <MESSAGE value="객체지향과 디자인 패턴 15일차 :   컴포지트(Composite) 패턴 , 널(Null) 객체 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체지향과 디자인 패턴 15일차 :   컴포지트(Composite) 패턴 , 널(Null) 객체 패턴" />
+    <MESSAGE value="이팩티브 자바 5일차  : 다 쓴 객체 참조를 해제하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="이팩티브 자바 5일차  : 다 쓴 객체 참조를 해제하라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
