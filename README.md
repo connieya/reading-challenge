@@ -190,4 +190,5 @@
 - [3일차 : 2024-04-19 (p.23 ~ 30  ) / private 생성자나 열거 타입으로 싱글턴임을 보증하라 , 인스턴스화를 막으려거든 private 생성자를 사용하라 , 자원을 직접 명시하지 말고 의존 객체 주입을  사용하라 ](effective-java/docs/3일차/3일차.md)
 - [4일차 : 2024-04-21 (p.31 ~ 35  ) /  불필요한 객체 생성을 피하라  ](effective-java/docs/4일차/4일차.md)
 - [5일차 : 2024-04-23 (p.36 ~ 39  ) /  다 쓴 객체 참조를 해제하라  ](effective-java/docs/5일차/5일차.md)
+- [6일차 : 2024-04-24 (p.40 ~ 46  ) / finalizer 와 cleaner 사용을 피하라    ](effective-java/docs/6일차/6일차.md)
 </details>
