@@ -192,4 +192,5 @@
 - [4일차 : 2024-04-21 (p.31 ~ 35  ) /  불필요한 객체 생성을 피하라  ](effective-java/docs/4일차/4일차.md)
 - [5일차 : 2024-04-23 (p.36 ~ 39  ) /  다 쓴 객체 참조를 해제하라  ](effective-java/docs/5일차/5일차.md)
 - [6일차 : 2024-04-24 (p.40 ~ 46  ) / finalizer 와 cleaner 사용을 피하라    ](effective-java/docs/6일차/6일차.md)
+- [7일차 : 2024-04-25 (p.47 ~ 50  ) / try-finally 보다는 try-with-resources 를 사용하라   ](effective-java/docs/7일차/7일차.md)
 </details>

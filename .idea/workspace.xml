@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 6일차 :   finalizer 와 cleaner 사용을 피하라">
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/15일차/15일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/15일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/15일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/15일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/15일차/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/운영체제-세번째이야기/4일차/4일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/운영체제-세번째이야기/5일차/5일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/운영체제-세번째이야기/6일차/6일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 15일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 코드의 네 가지 유형">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/7일차/7일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item9/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/운영체제-세번째이야기/3일차/3일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/운영체제-세번째이야기/3일차/3일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +394,7 @@
       <workItem from="1713845763577" duration="12484000" />
       <workItem from="1713908715997" duration="3809000" />
       <workItem from="1713938706736" duration="9583000" />
-      <workItem from="1713997924916" duration="9958000" />
+      <workItem from="1713997924916" duration="12177000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -746,7 +739,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,7 +757,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 4일차 (p.79 ~ 95) 단위 테스트 구성, 테스트 픽스처" />
     <MESSAGE value="객체 지향과 디자인 패턴 4일차 (p.78 ~ 86) 인터페이스, 추상화, 테스트" />
     <MESSAGE value="객체 지향과 디자인 패턴 5일차 (p.87 ~ 102) 상속 보다 조립" />
     <MESSAGE value="단위테스트 5일차 (p.96 ~ 109) 단위 테스트 명명법" />
@@ -789,7 +781,8 @@
     <MESSAGE value="이팩티브 자바 5일차  : 다 쓴 객체 참조를 해제하라" />
     <MESSAGE value="단위 테스트 14일차 :  함수형 아키텍처와 출력 기반 테스트로의 전환" />
     <MESSAGE value="EFFECTIVE JAVA 6일차 :   finalizer 와 cleaner 사용을 피하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 6일차 :   finalizer 와 cleaner 사용을 피하라" />
+    <MESSAGE value="단위 테스트 15일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 코드의 네 가지 유형" />
+    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 15일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 코드의 네 가지 유형" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
