@@ -193,4 +193,5 @@
 - [5일차 : 2024-04-23 (p.36 ~ 39  ) /  다 쓴 객체 참조를 해제하라  ](effective-java/docs/5일차/5일차.md)
 - [6일차 : 2024-04-24 (p.40 ~ 46  ) / finalizer 와 cleaner 사용을 피하라    ](effective-java/docs/6일차/6일차.md)
 - [7일차 : 2024-04-25 (p.47 ~ 50  ) / try-finally 보다는 try-with-resources 를 사용하라   ](effective-java/docs/7일차/7일차.md)
+- [8일차 : 2024-04-26 (p.51 ~ 66  ) / equals 는 일반 규약을 지켜 재정의하라    ](effective-java/docs/8일차/8일차.md)
 </details>
