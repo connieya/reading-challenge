@@ -196,4 +196,5 @@
 - [7일차 : 2024-04-25 (p.47 ~ 50  ) / try-finally 보다는 try-with-resources 를 사용하라   ](effective-java/docs/7일차/7일차.md)
 - [8일차 : 2024-04-26 (p.51 ~ 66  ) / equals 는 일반 규약을 지켜 재정의하라    ](effective-java/docs/8일차/8일차.md)
 - [9일차 : 2024-04-29 (p.67 ~  72 ) /   equals 를 재정의하려거든 hashCode 도 재정의하라   ](effective-java/docs/9일차/9일차.md)
+- [10일차 : 2024-04-30 (p.73 ~ 76  ) /   toString 을 항상 재정의하라  ](effective-java/docs/10일차/10일차.md)
 </details>
