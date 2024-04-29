@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="이펙티브 자바 8일차 : equals 는 일반 규약을 지켜 재정의하라">
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v1/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v1/MessageBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v1/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/CompanyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/MessageBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/Precondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter07/v2/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/16일차/16일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/16일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/16일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/16일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/스프링5/기/1일차/1일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/스프링5/기/2일차/2일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 16일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 고객 관리 시스템 코드 예제">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/9일차/9일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item11/PhoneNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item10/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item10/PhoneNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,11 +127,11 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.item11" />
       <recent name="org.example.chapter07.v2" />
       <recent name="org.example.item3.ex" />
       <recent name="org.example.chapter07.observer.refactor" />
       <recent name="org.example.item2.v3" />
-      <recent name="org.example.item2.v2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -405,7 +389,7 @@
       <workItem from="1714118480093" duration="3933000" />
       <workItem from="1714171222313" duration="16000" />
       <workItem from="1714201185658" duration="510000" />
-      <workItem from="1714378086565" duration="5127000" />
+      <workItem from="1714378086565" duration="7957000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -750,7 +734,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -768,7 +752,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위테스트 5일차 (p.96 ~ 109) 단위 테스트 명명법" />
     <MESSAGE value="객체 지향과 디자인 패턴 6일차 (p.104 ~ 136) SOLID" />
     <MESSAGE value="단위 테스트  6일차 (p.113 ~ 124) 좋은 단위 테스트 : 회귀 방지, 리팩토링 내성" />
     <MESSAGE value="객체 지향과 디자인 패턴  7일차 (p.137 ~ 152) DI 와 서비스 로케이터 , DI 생성자 방식, 설정 메서드 방식" />
@@ -793,7 +776,8 @@
     <MESSAGE value="단위 테스트 15일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 코드의 네 가지 유형" />
     <MESSAGE value="이펙티브 자바 7일차 : try-finally 보다는 try-with-resources 를 사용하라" />
     <MESSAGE value="이펙티브 자바 8일차 : equals 는 일반 규약을 지켜 재정의하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="이펙티브 자바 8일차 : equals 는 일반 규약을 지켜 재정의하라" />
+    <MESSAGE value="단위 테스트 16일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 고객 관리 시스템 코드 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 16일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 고객 관리 시스템 코드 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
