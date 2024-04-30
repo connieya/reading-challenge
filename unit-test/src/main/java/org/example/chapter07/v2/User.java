@@ -10,6 +10,7 @@ public class User {
     private int userId;
     private String email;
     private UserType userType;
+    private boolean isEmailConfirmed;
 
     public User(int userId, String email, UserType userType) {
         this.userId = userId;
@@ -18,9 +19,13 @@ public class User {
     }
 
 
-    public void changeEmail(String newEmail, Company company) {
+    public String changeEmail(String newEmail, Company company) {
+        if (isEmailConfirmed)
+            return "Can't change a confirmed email";
+
+
         if (email.equals(newEmail)) {
-            return;
+            return "bad";
         }
 
         UserType newType = company.isEmailCorporate(newEmail) ? userType.EMPLOYEE : userType.CUSTOMER;
@@ -32,6 +37,6 @@ public class User {
         email = newEmail;
         userType = newType;
 
-
+        return "ok";
     }
 }
