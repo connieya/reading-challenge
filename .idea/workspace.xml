@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 17일차 : 최적의 단위 테스트 커버리지 분석">
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/CompanyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/EmailChangedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/IBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/IMessageBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/MessageBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/Precondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter08/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/18일차/18일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/18일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/18일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/18일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/18일차/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/18일차/img_4.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 18일차 : 통합 테스트란?">
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/19일차/19일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/19일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/19일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/19일차/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -88,28 +74,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Development/reading-challenge/unit-test/src/main/java/org/example/chapter08",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Development/reading-challenge/unit-test/src/main/java/org/example/chapter08&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.chapter07.v2" />
@@ -406,7 +392,8 @@
       <workItem from="1714201185658" duration="510000" />
       <workItem from="1714378086565" duration="8493000" />
       <workItem from="1714431063494" duration="7911000" />
-      <workItem from="1714567260033" duration="4174000" />
+      <workItem from="1714567260033" duration="4586000" />
+      <workItem from="1714604569464" duration="3594000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -751,7 +738,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,7 +756,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체 지향과 디자인 패턴  8일차 (p.152 ~ 172) 서비스 로케이터 구현" />
     <MESSAGE value="객체 지향과 디자인 패턴  9일차 (p.174 ~ 181) 디자인 패턴 - 전략 패턴" />
     <MESSAGE value="이팩티브 자바  1일차 (p.07 ~ 13) 생성자 대신 정적 팩토리 메서드를 고려하라" />
     <MESSAGE value="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트" />
@@ -794,7 +780,8 @@
     <MESSAGE value="EFFECTIVE JAVA 9일차 : equals 를 재정의하려거든 hashCode 도 재정의하라" />
     <MESSAGE value="EFFECTIVE JAVA 10일차 :  toString 을 항상 재정의하라" />
     <MESSAGE value="단위 테스트 17일차 : 최적의 단위 테스트 커버리지 분석" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 17일차 : 최적의 단위 테스트 커버리지 분석" />
+    <MESSAGE value="단위 테스트 18일차 : 통합 테스트란?" />
+    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 18일차 : 통합 테스트란?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
