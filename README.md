@@ -202,5 +202,6 @@
 - [8일차 : 2024-04-26 (p.51 ~ 66  ) / equals 는 일반 규약을 지켜 재정의하라    ](effective-java/docs/8일차/8일차.md)
 - [9일차 : 2024-04-29 (p.67 ~  72 ) /   equals 를 재정의하려거든 hashCode 도 재정의하라   ](effective-java/docs/9일차/9일차.md)
 - [10일차 : 2024-04-30 (p.73 ~ 76  ) /   toString 을 항상 재정의하라  ](effective-java/docs/10일차/10일차.md)
-- [11일차 : 2024-05-02 (p.   ) /     ](effective-java/docs/11일차/11일차.md)
+- [11일차 : 2024-05-02 (p. 77 ~ 86   ) /   clone 재정의는 주의해서 진행하라   ](effective-java/docs/11일차/11일차.md)
+- [12일차 : 2024-05-03 (p. 87 ~ 94   ) /    Comparable 을 구현할지 고려하라   ](effective-java/docs/12일차/12일차.md)
 </details>
