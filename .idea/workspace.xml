@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 19일차 : 의존성 추상화를 위한 인터페이스 사용">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/11일차/11일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/단위테스트/docs/20일차/20일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 20일차 : 로깅 기능을 테스트하는 방법">
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/CompanyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/EmailChangedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/EventDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/IBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/IDomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/IDomainLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/IMessageBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/MessageBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/Precondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/UserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-test/src/main/java/org/example/chapter09/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/21일차/21일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/21일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/22일차/22일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/22일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/22일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/22일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/22일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/22일차/img_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -45,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -82,7 +103,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Development/reading-challenge/unit-test/src/main/java/org/example/chapter08&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Development/reading-challenge/unit-test/src/main/java/org/example/chapter09&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -96,18 +117,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.chapter09" />
       <recent name="org.example.chapter07.v2" />
       <recent name="org.example.chapter07" />
       <recent name="org.example.item10" />
       <recent name="org.example.chapter07.null_pattern" />
-      <recent name="org.example.chapter06" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\reading-challenge\unit-test\src\main\java\org\example\chapter09" />
       <recent name="C:\Development\reading-challenge\unit-test\src\main\java\org\example\chapter08" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\observer" />
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\composite" />
-      <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\factory" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Development\reading-challenge\단위테스트\docs" />
@@ -391,7 +412,8 @@
       <workItem from="1714378086565" duration="8493000" />
       <workItem from="1714431063494" duration="7911000" />
       <workItem from="1714567260033" duration="4586000" />
-      <workItem from="1714604569464" duration="7835000" />
+      <workItem from="1714604569464" duration="16397000" />
+      <workItem from="1715036120786" duration="4332000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -736,7 +758,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -754,7 +776,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="이팩티브 자바  1일차 (p.07 ~ 13) 생성자 대신 정적 팩토리 메서드를 고려하라" />
     <MESSAGE value="단위 테스트 7일차 (p.125 ~ 145)  좋은 단위 테스트 : 빠른 피드백, 유지 보수성  / 이상적인 테스트" />
     <MESSAGE value="단위 테스트 8일차 (p.147 ~ 154)  목과 테스트 취약성 , 목과 스텁의 구분" />
     <MESSAGE value="단위 테스트 9일차 (p.154 ~ 165)  목과 스텁 , CQS" />
@@ -779,7 +800,8 @@
     <MESSAGE value="단위 테스트 17일차 : 최적의 단위 테스트 커버리지 분석" />
     <MESSAGE value="단위 테스트 18일차 : 통합 테스트란?" />
     <MESSAGE value="단위 테스트 19일차 : 의존성 추상화를 위한 인터페이스 사용" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 19일차 : 의존성 추상화를 위한 인터페이스 사용" />
+    <MESSAGE value="단위 테스트 20일차 : 로깅 기능을 테스트하는 방법" />
+    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 20일차 : 로깅 기능을 테스트하는 방법" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
