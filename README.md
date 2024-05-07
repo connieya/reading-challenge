@@ -204,4 +204,5 @@
 - [10일차 : 2024-04-30 (p.73 ~ 76  ) /   toString 을 항상 재정의하라  ](effective-java/docs/10일차/10일차.md)
 - [11일차 : 2024-05-02 (p. 77 ~ 86   ) /   clone 재정의는 주의해서 진행하라   ](effective-java/docs/11일차/11일차.md)
 - [12일차 : 2024-05-03 (p. 87 ~ 94   ) /    Comparable 을 구현할지 고려하라   ](effective-java/docs/12일차/12일차.md)
+- [13일차 : 2024-05-04 (p. 95 ~  101  ) /  4장 클래스와 인터페이스 , 클래스와 멤버의 접근 권한을 최소화하라    ](effective-java/docs/13일차/13일차.md)
 </details>
