@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/effective-java" />
     <file type="web" url="file://$PROJECT_DIR$/oop" />
+    <file type="web" url="file://$PROJECT_DIR$/toby-spring" />
     <file type="web" url="file://$PROJECT_DIR$/unit-test" />
   </component>
   <component name="MavenProjectsManager">

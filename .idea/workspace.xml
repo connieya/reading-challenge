@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 12일차 :  Comparable 을 구현할지 고려하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/13일차/13일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 13일차 :  클래스와 멤버의 접근 권한을 최소화하라">
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/1일차/1일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/2일차/2일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_1/dao/DUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_1/dao/NUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_1/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_1/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_3/dao/ConnectionMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_3/dao/DConnectionMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_3/dao/SimpleConnectionMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_3/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_3/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/23일차/23일.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/단위테스트/docs/23일차/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item13/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +37,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/oop">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/toby-spring">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/unit-test">
@@ -110,11 +130,11 @@
       <recent name="C:\reading-challenge\src\main\java\headfirst_design_pattern\combining\composite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Development\reading-challenge\toby-spring" />
       <recent name="C:\Development\reading-challenge\단위테스트\docs" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\48일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\47일차" />
       <recent name="C:\reading-challenge\src\main\헤드퍼스트\41일차" />
-      <recent name="C:\reading-challenge\src\main\헤드퍼스트\38일차" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -126,14 +146,14 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.ch1_3.domain" />
+      <recent name="org.example.ch1_3.dao" />
+      <recent name="org.example.dao" />
       <recent name="org.example.item13" />
       <recent name="org.example.item11" />
-      <recent name="org.example.chapter07.v2" />
-      <recent name="org.example.item3.ex" />
-      <recent name="org.example.chapter07.observer.refactor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.org.example.ch1_1.Main">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -170,6 +190,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.item10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.ch1_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ch1_1.Main" />
+      <module name="toby-spring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ch1_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,30 +282,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.chapter04.extreme.UserTest.test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="reading-challenge" />
       <method v="2">
@@ -288,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.ch1_1.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.CustomerControllerTests" />
         <item itemvalue="Gradle.ControllerTest.creatingAReport" />
         <item itemvalue="Gradle.ControllerTest" />
-        <item itemvalue="Gradle.UserTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +401,8 @@
       <workItem from="1714431063494" duration="7911000" />
       <workItem from="1714567260033" duration="4586000" />
       <workItem from="1714604569464" duration="16397000" />
-      <workItem from="1715036120786" duration="18751000" />
+      <workItem from="1715036120786" duration="18784000" />
+      <workItem from="1715125446538" duration="15669000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -737,7 +747,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +765,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 9일차 (p.154 ~ 165)  목과 스텁 , CQS" />
     <MESSAGE value="이펙티브 자바 2일 차  : 생성자에 매개변수가 많다면 빌더를 고려하라." />
     <MESSAGE value="이펙티브 자바 3일 차  : private 생성자나 열거 타입으로 싱글턴임을 보증하라 , 인스턴스화를 막으려거든 private 생성자를 사용하라 , 자원을 직접 명시하지 말고 의존 객체 주입을  사용하라" />
     <MESSAGE value="객체지향과 디자인 패턴 11일 차  : 프록시 (Proxy )패턴" />
@@ -780,7 +789,8 @@
     <MESSAGE value="단위 테스트 20일차 : 로깅 기능을 테스트하는 방법" />
     <MESSAGE value="단위 테스트 22일차 :데이터베이스 테스트" />
     <MESSAGE value="EFFECTIVE JAVA 12일차 :  Comparable 을 구현할지 고려하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 12일차 :  Comparable 을 구현할지 고려하라" />
+    <MESSAGE value="EFFECTIVE JAVA 13일차 :  클래스와 멤버의 접근 권한을 최소화하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 13일차 :  클래스와 멤버의 접근 권한을 최소화하라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
