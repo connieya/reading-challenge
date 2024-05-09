@@ -1,6 +1,7 @@
 package springbook.user.ch15.dao;
 
-import org.example.ch1_1.domain.User;
+
+import springbook.user.ch15.domain.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
