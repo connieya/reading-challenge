@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="단위 테스트 25일차 : 11장  단위 테스트 안티 패턴 ( 코드 오염, 구체 클래스를 목으로 처리하기 , 시간 처리하기)">
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item17/Complex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toby-spring/docs/3일차/3일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/16일차/16일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item18/ForwardingSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item18/InstrumentedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item18/InstrumentedSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effective-java/docs/15일차/15일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/docs/15일차/15일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toby-spring/docs/2일차/2일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/2일차/2일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,11 +134,11 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.item18" />
       <recent name="org.example.item17" />
       <recent name="org.example.ch1_3.domain" />
       <recent name="org.example.ch1_3.dao" />
       <recent name="org.example.dao" />
-      <recent name="org.example.item13" />
     </key>
   </component>
   <component name="RunManager" selected="Application.org.example.ch1_1.Main">
@@ -400,7 +400,8 @@
       <workItem from="1715125446538" duration="21333000" />
       <workItem from="1715208222162" duration="6206000" />
       <workItem from="1715258213565" duration="4571000" />
-      <workItem from="1715293588184" duration="9155000" />
+      <workItem from="1715293588184" duration="12375000" />
+      <workItem from="1715388069145" duration="2334000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -745,7 +746,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,7 +764,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 10일 차 : 목과 테스트 취약성 : 육각형 아키텍처" />
     <MESSAGE value="단위 테스트 11일 차 : 단위 테스트 런던파 , 고전파 재고 , 5장 요약" />
     <MESSAGE value="객체 지향과 디자인 패턴 12일차 : 옵저버 패턴" />
     <MESSAGE value="객체 지향과 디자인 패턴 14일차 : 파사드 패턴 , 추상 팩토리 패턴" />
@@ -788,7 +788,8 @@
     <MESSAGE value="단위 테스트 23일차 :   10장 데이터베이스 테스트 ,  테스트 데이터 생명 주기" />
     <MESSAGE value="단위 테스트 24일차 : 11장  단위 테스트 안티 패턴 , 비공개 메서드 단위 테스트" />
     <MESSAGE value="단위 테스트 25일차 : 11장  단위 테스트 안티 패턴 ( 코드 오염, 구체 클래스를 목으로 처리하기 , 시간 처리하기)" />
-    <option name="LAST_COMMIT_MESSAGE" value="단위 테스트 25일차 : 11장  단위 테스트 안티 패턴 ( 코드 오염, 구체 클래스를 목으로 처리하기 , 시간 처리하기)" />
+    <MESSAGE value="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
