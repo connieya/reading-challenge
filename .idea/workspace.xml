@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/16일차/16일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item18/ForwardingSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item18/InstrumentedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item18/InstrumentedSet.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/17일차/17일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item19/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item19/Super.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -141,7 +140,7 @@
       <recent name="org.example.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.ch1_1.Main">
+  <component name="RunManager" selected="Application.Sub">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -185,6 +184,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.item19.Sub" />
+      <module name="effective-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.item19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.ch1_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ch1_1.Main" />
       <module name="toby-spring.main" />
@@ -197,30 +209,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="ControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.chapter05.mockandstub.ControllerTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
     </configuration>
     <configuration name="ControllerTest.creatingAReport" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -292,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sub" />
         <item itemvalue="Application.org.example.ch1_1.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.CustomerControllerTests" />
         <item itemvalue="Gradle.ControllerTest.creatingAReport" />
-        <item itemvalue="Gradle.ControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +389,8 @@
       <workItem from="1715208222162" duration="6206000" />
       <workItem from="1715258213565" duration="4571000" />
       <workItem from="1715293588184" duration="12375000" />
-      <workItem from="1715388069145" duration="2334000" />
+      <workItem from="1715388069145" duration="8313000" />
+      <workItem from="1715573638549" duration="415000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -746,7 +735,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 11일 차 : 단위 테스트 런던파 , 고전파 재고 , 5장 요약" />
     <MESSAGE value="객체 지향과 디자인 패턴 12일차 : 옵저버 패턴" />
     <MESSAGE value="객체 지향과 디자인 패턴 14일차 : 파사드 패턴 , 추상 팩토리 패턴" />
     <MESSAGE value="단위 테스트 12일차 :  단위 테스트 스타일" />
@@ -789,7 +777,8 @@
     <MESSAGE value="단위 테스트 24일차 : 11장  단위 테스트 안티 패턴 , 비공개 메서드 단위 테스트" />
     <MESSAGE value="단위 테스트 25일차 : 11장  단위 테스트 안티 패턴 ( 코드 오염, 구체 클래스를 목으로 처리하기 , 시간 처리하기)" />
     <MESSAGE value="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라" />
+    <MESSAGE value="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
