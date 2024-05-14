@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/17일차/17일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item19/Sub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item19/Super.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 18일차 : 아이템 20. 추상 클래스보다는 인터페이스를 우선하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/19일차/19일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_7/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_7/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_8/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_8/SimpleDriverDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_8/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_8/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_8/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_8/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch3_2/StatementStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/dao/CountingConnectionMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/dao/CountingDaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/4일차/4일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/5일차/5일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/6일차/6일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/7일차/7일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/8일차/8일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/9일차/9일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toby-spring/docs/3일차/3일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/3일차/3일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_3/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch1_3/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +69,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -89,7 +106,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Development/reading-challenge/unit-test/src/main/java/org/example/chapter11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Development/reading-challenge/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch1_8&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -103,18 +120,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="springbook.user.ch15.ch1_8" />
       <recent name="org.example.chapter11" />
       <recent name="org.example.ch1_3.dao" />
       <recent name="org.example.chapter09" />
       <recent name="org.example.chapter07.v2" />
-      <recent name="org.example.chapter07" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\reading-challenge\toby-spring\ch-1-5\src\main\java\springbook\user\ch15\ch1_8" />
       <recent name="C:\Development\reading-challenge\unit-test\src\main\java\org\example\chapter11" />
       <recent name="C:\Development\reading-challenge\toby-spring\ch-1-5\src\main\java\springbook\user\ch15" />
       <recent name="C:\Development\reading-challenge\unit-test\src\main\java\org\example\chapter09" />
       <recent name="C:\Development\reading-challenge\unit-test\src\main\java\org\example\chapter08" />
-      <recent name="C:\reading-challenge\src\main\헤드퍼스트\42일차" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Development\reading-challenge\toby-spring" />
@@ -133,14 +150,14 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="springbook.user.ch15.ch1_8" />
+      <recent name="springbook.user.ch15.dao" />
+      <recent name="springbook.user.ch15.ch1_7" />
       <recent name="org.example.item18" />
       <recent name="org.example.item17" />
-      <recent name="org.example.ch1_3.domain" />
-      <recent name="org.example.ch1_3.dao" />
-      <recent name="org.example.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sub">
+  <component name="RunManager" selected="Application.UserDaoTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -197,6 +214,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ch1_3.UserDaoTest" />
+      <module name="toby-spring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ch1_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.ch1_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ch1_1.Main" />
       <module name="toby-spring.main" />
@@ -209,30 +239,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="ControllerTest.creatingAReport" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/unit-test" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.chapter05.mockandstub.ControllerTest.creatingAReport&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
     </configuration>
     <configuration name="CustomerControllerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -280,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserDaoTest" />
         <item itemvalue="Application.Sub" />
         <item itemvalue="Application.org.example.ch1_1.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.CustomerControllerTests" />
-        <item itemvalue="Gradle.ControllerTest.creatingAReport" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +396,8 @@
       <workItem from="1715258213565" duration="4571000" />
       <workItem from="1715293588184" duration="12375000" />
       <workItem from="1715388069145" duration="8313000" />
-      <workItem from="1715573638549" duration="415000" />
+      <workItem from="1715573638549" duration="11567000" />
+      <workItem from="1715640367914" duration="12048000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -735,7 +742,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,8 +760,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체 지향과 디자인 패턴 12일차 : 옵저버 패턴" />
-    <MESSAGE value="객체 지향과 디자인 패턴 14일차 : 파사드 패턴 , 추상 팩토리 패턴" />
     <MESSAGE value="단위 테스트 12일차 :  단위 테스트 스타일" />
     <MESSAGE value="객체지향과 디자인 패턴 15일차 :   컴포지트(Composite) 패턴 , 널(Null) 객체 패턴" />
     <MESSAGE value="이팩티브 자바 5일차  : 다 쓴 객체 참조를 해제하라" />
@@ -778,7 +783,9 @@
     <MESSAGE value="단위 테스트 25일차 : 11장  단위 테스트 안티 패턴 ( 코드 오염, 구체 클래스를 목으로 처리하기 , 시간 처리하기)" />
     <MESSAGE value="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라" />
     <MESSAGE value="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라" />
+    <MESSAGE value="EFFECTIVE JAVA 17일차 :아이템 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라" />
+    <MESSAGE value="EFFECTIVE JAVA 18일차 : 아이템 20. 추상 클래스보다는 인터페이스를 우선하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 18일차 : 아이템 20. 추상 클래스보다는 인터페이스를 우선하라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
