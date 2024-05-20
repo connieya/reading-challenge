@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 25일차 : 5장 제네릭  아이템 27. 비검사 경고를 제거하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/26일차/26일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item28/Chooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item28/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/docs/1일차/1일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/docs/2일차/2일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/docs/3일차/3일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/docs/4일차/4일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/src/main/java/com/example/javapersistence/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/src/test/java/com/example/javapersistence/HelloWorldHibernateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/src/test/java/com/example/javapersistence/HelloWorldHibernateToJPA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/src/test/java/com/example/javapersistence/HelloWorldJPATest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/src/test/java/com/example/javapersistence/HelloWorldJPAToHibernateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-persistence/src/test/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch5_1/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/main/java/springbook/user/ch15/ch5_1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toby-spring/docs/15일차/15일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 26일차 : 5장 제네릭  이템 28. 배열보다는 리스트를 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/27일차/27일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item29/generic/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item29/object/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toby-spring/docs/14일차/14일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/14일차/14일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -412,7 +392,8 @@
       <workItem from="1715813917048" duration="6411000" />
       <workItem from="1715897652104" duration="16673000" />
       <workItem from="1715988553788" duration="10674000" />
-      <workItem from="1716032164042" duration="1950000" />
+      <workItem from="1716032164042" duration="2061000" />
+      <workItem from="1716168025971" duration="2606000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -757,7 +738,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +756,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 15일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 코드의 네 가지 유형" />
     <MESSAGE value="이펙티브 자바 7일차 : try-finally 보다는 try-with-resources 를 사용하라" />
     <MESSAGE value="이펙티브 자바 8일차 : equals 는 일반 규약을 지켜 재정의하라" />
     <MESSAGE value="단위 테스트 16일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 고객 관리 시스템 코드 예제" />
@@ -800,7 +780,8 @@
     <MESSAGE value="EFFECTIVE JAVA 23일차 : 아이템 25. 톱 레벨 클래스는 한 파일에 하나만 담으라" />
     <MESSAGE value="EFFECTIVE JAVA 24일차 : 5장 제네릭  아이템 26. 로 타입은 사용하지 말라" />
     <MESSAGE value="EFFECTIVE JAVA 25일차 : 5장 제네릭  아이템 27. 비검사 경고를 제거하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 25일차 : 5장 제네릭  아이템 27. 비검사 경고를 제거하라" />
+    <MESSAGE value="EFFECTIVE JAVA 26일차 : 5장 제네릭  이템 28. 배열보다는 리스트를 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 26일차 : 5장 제네릭  이템 28. 배열보다는 리스트를 사용하라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
