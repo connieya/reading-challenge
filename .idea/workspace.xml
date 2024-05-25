@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 27일차 : 5장 제네릭 아이템 29. 이왕이면 제네릭 타입으로 만들라">
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="토비의 스프링">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/28일차/28일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item30/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toby-spring/docs/15일차/15일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/15일차/15일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toby-spring/docs/1일차/1일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/1일차/1일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toby-spring/docs/2일차/2일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/2일차/2일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toby-spring/docs/3일차/3일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/3일차/3일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +142,7 @@
       <recent name="springbook.user.ch15.ch1_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.org.example.item30.Main">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -184,19 +186,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.item19.Sub" />
-      <module name="effective-java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.item19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ch1_3.UserDaoTest" />
       <module name="toby-spring.main" />
@@ -216,6 +205,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.item26.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.item30.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.item30.Main" />
+      <module name="effective-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.item30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.item30.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.item26.Main" />
         <item itemvalue="Gradle.CalcSumTest.sumOfNumbers" />
         <item itemvalue="Application.UserDaoTest" />
-        <item itemvalue="Application.Sub" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +394,10 @@
       <workItem from="1715897652104" duration="16673000" />
       <workItem from="1715988553788" duration="10674000" />
       <workItem from="1716032164042" duration="2061000" />
-      <workItem from="1716168025971" duration="8316000" />
+      <workItem from="1716168025971" duration="8350000" />
+      <workItem from="1716238473766" duration="6865000" />
+      <workItem from="1716435573803" duration="679000" />
+      <workItem from="1716550795077" duration="2614000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -737,7 +742,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +760,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="이펙티브 자바 8일차 : equals 는 일반 규약을 지켜 재정의하라" />
     <MESSAGE value="단위 테스트 16일차 : 가치 있는 단위 테스트를 위한 리팩터링 - 고객 관리 시스템 코드 예제" />
     <MESSAGE value="EFFECTIVE JAVA 9일차 : equals 를 재정의하려거든 hashCode 도 재정의하라" />
     <MESSAGE value="EFFECTIVE JAVA 10일차 :  toString 을 항상 재정의하라" />
@@ -780,7 +784,8 @@
     <MESSAGE value="EFFECTIVE JAVA 25일차 : 5장 제네릭  아이템 27. 비검사 경고를 제거하라" />
     <MESSAGE value="EFFECTIVE JAVA 26일차 : 5장 제네릭  이템 28. 배열보다는 리스트를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 27일차 : 5장 제네릭 아이템 29. 이왕이면 제네릭 타입으로 만들라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 27일차 : 5장 제네릭 아이템 29. 이왕이면 제네릭 타입으로 만들라" />
+    <MESSAGE value="토비의 스프링" />
+    <option name="LAST_COMMIT_MESSAGE" value="토비의 스프링" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
