@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 31. 한정적 와일드카드를 사용해 API 유연성을 높이라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/30일차/30일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item32/Main.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA  아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/31일차/31일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item33/Favorites.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -397,7 +397,7 @@
       <workItem from="1716435573803" duration="679000" />
       <workItem from="1716550795077" duration="7026000" />
       <workItem from="1716698172051" duration="28000" />
-      <workItem from="1716766742393" duration="2444000" />
+      <workItem from="1716766742393" duration="7038000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -742,7 +742,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,7 +760,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA 10일차 :  toString 을 항상 재정의하라" />
     <MESSAGE value="단위 테스트 17일차 : 최적의 단위 테스트 커버리지 분석" />
     <MESSAGE value="단위 테스트 18일차 : 통합 테스트란?" />
     <MESSAGE value="단위 테스트 19일차 : 의존성 추상화를 위한 인터페이스 사용" />
@@ -785,7 +784,8 @@
     <MESSAGE value="토비의 스프링" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 30. 이왕이면 제네릭 메서드로 만들라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 31. 한정적 와일드카드를 사용해 API 유연성을 높이라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 31. 한정적 와일드카드를 사용해 API 유연성을 높이라" />
+    <MESSAGE value="EFFECTIVE JAVA  아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA  아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
