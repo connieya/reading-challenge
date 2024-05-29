@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA  아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/31일차/31일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item33/Favorites.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 33. 타입 안전 이종 컨테이너를 고려하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/32일차/32일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/PayrollDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/refactor/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/v1/PayrollDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/v2/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +139,14 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.item34.v1" />
+      <recent name="org.example.item34.v2" />
+      <recent name="org.example.item34.refactor" />
       <recent name="springbook.user.ch15.ch3_5" />
       <recent name="springbook.user.ch15.ch3_3" />
-      <recent name="springbook.user.ch15.ch3_2" />
-      <recent name="org.example.item22" />
-      <recent name="springbook.user.ch15.ch1_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.item32.Main">
+  <component name="RunManager" selected="Application.org.example.item34.Main">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -223,29 +229,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcSumTest.sumOfNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/toby-spring/ch-1-5" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;springbook.user.ch15.ch3_5.CalcSumTest.sumOfNumbers&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="org.example.item34.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.item34.Main" />
+      <module name="effective-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.item34.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="reading-challenge" />
@@ -276,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.item34.Main" />
         <item itemvalue="Application.org.example.item32.Main" />
         <item itemvalue="Application.org.example.item30.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.item26.Main" />
-        <item itemvalue="Gradle.CalcSumTest.sumOfNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +392,8 @@
       <workItem from="1716435573803" duration="679000" />
       <workItem from="1716550795077" duration="7026000" />
       <workItem from="1716698172051" duration="28000" />
-      <workItem from="1716766742393" duration="7038000" />
+      <workItem from="1716766742393" duration="9709000" />
+      <workItem from="1716936079287" duration="5019000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -742,7 +738,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,7 +756,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 17일차 : 최적의 단위 테스트 커버리지 분석" />
     <MESSAGE value="단위 테스트 18일차 : 통합 테스트란?" />
     <MESSAGE value="단위 테스트 19일차 : 의존성 추상화를 위한 인터페이스 사용" />
     <MESSAGE value="단위 테스트 20일차 : 로깅 기능을 테스트하는 방법" />
@@ -785,7 +780,19 @@
     <MESSAGE value="EFFECTIVE JAVA 아이템 30. 이왕이면 제네릭 메서드로 만들라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 31. 한정적 와일드카드를 사용해 API 유연성을 높이라" />
     <MESSAGE value="EFFECTIVE JAVA  아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA  아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라" />
+    <MESSAGE value="EFFECTIVE JAVA 아이템 33. 타입 안전 이종 컨테이너를 고려하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 33. 타입 안전 이종 컨테이너를 고려하라" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/effective-java/src/main/java/org/example/item34/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
