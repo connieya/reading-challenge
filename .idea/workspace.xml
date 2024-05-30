@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 34. int 상수 대신 열거 타입을 사용하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/33일차/33일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item35/v1/Ensemble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item35/v2/Ensemble.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 36. 비트 필드 대신 EnumSet을 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/35일차/35일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item37/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item37/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item37/v1/Phase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item37/v2/Phase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -134,11 +136,11 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.item37.v2" />
+      <recent name="org.example.item36.v1" />
       <recent name="org.example.item35.v2" />
       <recent name="org.example.item34.v1" />
       <recent name="org.example.item34.v2" />
-      <recent name="org.example.item34.refactor" />
-      <recent name="springbook.user.ch15.ch3_5" />
     </key>
   </component>
   <component name="RunManager" selected="Application.org.example.item34.Main">
@@ -388,7 +390,8 @@
       <workItem from="1716550795077" duration="7026000" />
       <workItem from="1716698172051" duration="28000" />
       <workItem from="1716766742393" duration="9709000" />
-      <workItem from="1716936079287" duration="6008000" />
+      <workItem from="1716936079287" duration="9879000" />
+      <workItem from="1717023720370" duration="2349000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -733,7 +736,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,8 +754,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 19일차 : 의존성 추상화를 위한 인터페이스 사용" />
-    <MESSAGE value="단위 테스트 20일차 : 로깅 기능을 테스트하는 방법" />
     <MESSAGE value="단위 테스트 22일차 :데이터베이스 테스트" />
     <MESSAGE value="EFFECTIVE JAVA 12일차 :  Comparable 을 구현할지 고려하라" />
     <MESSAGE value="EFFECTIVE JAVA 13일차 :  클래스와 멤버의 접근 권한을 최소화하라" />
@@ -776,7 +777,9 @@
     <MESSAGE value="EFFECTIVE JAVA  아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 33. 타입 안전 이종 컨테이너를 고려하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 34. int 상수 대신 열거 타입을 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 34. int 상수 대신 열거 타입을 사용하라" />
+    <MESSAGE value="EFFECTIVE JAVA 아이템 35. ordinal 메서드 대신 인스턴스 필드를 사용하라" />
+    <MESSAGE value="EFFECTIVE JAVA 아이템 36. 비트 필드 대신 EnumSet을 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 36. 비트 필드 대신 EnumSet을 사용하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
