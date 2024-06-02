@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA  아이템 40. @Override 에너테이션을 일관되게 사용하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/39일차/39일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA  아이템 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/40일차/40일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item42/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item42/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -133,11 +135,11 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.item42" />
       <recent name="org.example.item38.v2" />
       <recent name="org.example.item37.v2" />
       <recent name="org.example.item36.v1" />
       <recent name="org.example.item35.v2" />
-      <recent name="org.example.item34.v1" />
     </key>
   </component>
   <component name="RunManager" selected="Application.org.example.item34.Main">
@@ -389,7 +391,8 @@
       <workItem from="1716766742393" duration="9709000" />
       <workItem from="1716936079287" duration="9879000" />
       <workItem from="1717023720370" duration="11444000" />
-      <workItem from="1717093049668" duration="9546000" />
+      <workItem from="1717093049668" duration="10966000" />
+      <workItem from="1717311445878" duration="1404000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -734,7 +737,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,7 +755,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="단위 테스트 24일차 : 11장  단위 테스트 안티 패턴 , 비공개 메서드 단위 테스트" />
     <MESSAGE value="단위 테스트 25일차 : 11장  단위 테스트 안티 패턴 ( 코드 오염, 구체 클래스를 목으로 처리하기 , 시간 처리하기)" />
     <MESSAGE value="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라" />
     <MESSAGE value="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라" />
@@ -777,7 +779,8 @@
     <MESSAGE value="EFFECTIVE JAVA  아이템 38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA  아이템 39. 명명 패턴보다 애너테이션을 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA  아이템 40. @Override 에너테이션을 일관되게 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA  아이템 40. @Override 에너테이션을 일관되게 사용하라" />
+    <MESSAGE value="EFFECTIVE JAVA  아이템 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA  아이템 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
