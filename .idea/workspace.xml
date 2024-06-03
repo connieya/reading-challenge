@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 42. 익명 클래스보다는 람다를 사용하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/41일차/41일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item43/Main.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 43. 람다보다는 메서드 참조를 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/42일차/42일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item44/EldestEntryRemovalFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +53,9 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -390,7 +392,8 @@
       <workItem from="1716936079287" duration="9879000" />
       <workItem from="1717023720370" duration="11444000" />
       <workItem from="1717093049668" duration="10966000" />
-      <workItem from="1717311445878" duration="2538000" />
+      <workItem from="1717311445878" duration="4260000" />
+      <workItem from="1717414821762" duration="1554000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -735,7 +738,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,7 +756,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA 15일차 : 아이템 17. 변경 가능성을 최소화하라" />
     <MESSAGE value="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 17일차 :아이템 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라" />
     <MESSAGE value="EFFECTIVE JAVA 18일차 : 아이템 20. 추상 클래스보다는 인터페이스를 우선하라" />
@@ -778,7 +780,8 @@
     <MESSAGE value="EFFECTIVE JAVA  아이템 40. @Override 에너테이션을 일관되게 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA  아이템 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 42. 익명 클래스보다는 람다를 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 42. 익명 클래스보다는 람다를 사용하라" />
+    <MESSAGE value="EFFECTIVE JAVA 아이템 43. 람다보다는 메서드 참조를 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 43. 람다보다는 메서드 참조를 사용하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
