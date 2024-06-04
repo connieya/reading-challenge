@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 43. 람다보다는 메서드 참조를 사용하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/42일차/42일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item44/EldestEntryRemovalFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 44. 표준 함수형 인터페이스를 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/43일차/43일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item45/v1/Anagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item45/v2/Anagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item45/v3/Anagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -54,8 +55,8 @@
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,11 +136,11 @@
       <recent name="org.example.chapter03.naming" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.item45.v3" />
+      <recent name="org.example.item45.v2" />
       <recent name="org.example.item42" />
       <recent name="org.example.item38.v2" />
       <recent name="org.example.item37.v2" />
-      <recent name="org.example.item36.v1" />
-      <recent name="org.example.item35.v2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.org.example.item34.Main">
@@ -393,7 +394,8 @@
       <workItem from="1717023720370" duration="11444000" />
       <workItem from="1717093049668" duration="10966000" />
       <workItem from="1717311445878" duration="4260000" />
-      <workItem from="1717414821762" duration="1554000" />
+      <workItem from="1717414821762" duration="1588000" />
+      <workItem from="1717504119625" duration="3449000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -738,7 +740,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,7 +758,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA 16일차 : 아이템 18 상속보다는 컴포지션을 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 17일차 :아이템 19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라" />
     <MESSAGE value="EFFECTIVE JAVA 18일차 : 아이템 20. 추상 클래스보다는 인터페이스를 우선하라" />
     <MESSAGE value="EFFECTIVE JAVA 19일차 : 아이템 21. 인터페이스는 구현하는 쪽을 생각해 설계하라" />
@@ -781,7 +782,8 @@
     <MESSAGE value="EFFECTIVE JAVA  아이템 41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 42. 익명 클래스보다는 람다를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 43. 람다보다는 메서드 참조를 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 43. 람다보다는 메서드 참조를 사용하라" />
+    <MESSAGE value="EFFECTIVE JAVA 아이템 44. 표준 함수형 인터페이스를 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 44. 표준 함수형 인터페이스를 사용하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
