@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 45. 스트림은 주의해서 사용하라">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/effective-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/45일차/45일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item47/SubLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toby-spring/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/unit-test.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/reading-challenge.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA 아이템 47. 반환 타입으로는 스트림보다 컬렉션이 낫다.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/1일차/1일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/1일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/1일차/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/1일차/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/1일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/1일차/img_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -117,29 +107,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/cony/work/study/reading-challenge",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cony/work/study/reading-challenge&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.item26" />
@@ -430,7 +420,8 @@
       <workItem from="1717569587645" duration="24000" />
       <workItem from="1718019620222" duration="1658000" />
       <workItem from="1718444310231" duration="1885000" />
-      <workItem from="1718630048752" duration="3439000" />
+      <workItem from="1718630048752" duration="3571000" />
+      <workItem from="1718845128459" duration="3221000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -775,7 +766,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +784,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA 18일차 : 아이템 20. 추상 클래스보다는 인터페이스를 우선하라" />
     <MESSAGE value="EFFECTIVE JAVA 19일차 : 아이템 21. 인터페이스는 구현하는 쪽을 생각해 설계하라" />
     <MESSAGE value="EFFECTIVE JAVA 22일차 : 아이템 24. 멤버 클래스 되도록 static 으로 만들라" />
     <MESSAGE value="EFFECTIVE JAVA 23일차 : 아이템 25. 톱 레벨 클래스는 한 파일에 하나만 담으라" />
@@ -818,7 +808,8 @@
     <MESSAGE value="EFFECTIVE JAVA 아이템 43. 람다보다는 메서드 참조를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 44. 표준 함수형 인터페이스를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 45. 스트림은 주의해서 사용하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 45. 스트림은 주의해서 사용하라" />
+    <MESSAGE value="EFFECTIVE JAVA 아이템 47. 반환 타입으로는 스트림보다 컬렉션이 낫다." />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA 아이템 47. 반환 타입으로는 스트림보다 컬렉션이 낫다." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
