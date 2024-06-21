@@ -251,7 +251,8 @@
 
 <summary> 2024.06.20 ~   </summary>
 
-- [1일차 : 2024-06-20 (p. 1 ~ 11    ) / 01 계층형 아키텍처의 문제는 무엇일까?     ](effective-java/docs/45일차/45일차.md)
+- [1일차 : 2024-06-20 (p. 1 ~ 11    ) / 01. 계층형 아키텍처의 문제는 무엇일까?     ](clean-architecture/docs/1일차/1일차.md)
+- [2일차 : 2024-06-21 (p. 12 ~ 22    ) /  02.  의존성 역전하기      ](clean-architecture/docs/2일차/2일차.md)
 
 </details>
 
