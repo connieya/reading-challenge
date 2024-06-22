@@ -1,4 +1,8 @@
 package java.io.refactoring.buckpal.account.application.port.in;
 
-public class SendMoneyUseCase {
+import java.io.refactoring.buckpal.account.domain.Money;
+
+public interface SendMoneyUseCase {
+
+    boolean sendMoney(SendMoneyCommand command);
 }

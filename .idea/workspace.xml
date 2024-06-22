@@ -4,27 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="만들면서 배우는 클린 아키텍처 -  01 계층형 아키텍처의 문제는 무엇일까?">
-      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/2일차/2일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/2일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/2일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/2일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/2일차/img_3.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="만들면서 배우는 클린 아키텍처 -  02.  의존성 역전하기">
       <change afterPath="$PROJECT_DIR$/clean-architecture/docs/3일차/3일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/3일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/3일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/3일차/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/adapter/in/web/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/adapter/out/persistence/AccountPersistenceAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/adapter/out/persistence/SpringDataAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/SendMoneyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/in/SendMoneyUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/out/LoadAccountPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/out/UpdateAccountStatePort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/3일차/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/4일차/4일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/in/SendMoneyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/out/AccountLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/AccountId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/ActivityWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/adapter/in/web/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/adapter/in/web/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/adapter/out/persistence/AccountPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/adapter/out/persistence/AccountPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/SendMoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/SendMoneyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/in/SendMoneyUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/in/SendMoneyUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/out/LoadAccountPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/application/port/out/LoadAccountPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/java/io/refactoring/buckpal/account/domain/Activity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,6 +430,8 @@
       <workItem from="1718444310231" duration="1885000" />
       <workItem from="1718630048752" duration="3571000" />
       <workItem from="1718845128459" duration="5319000" />
+      <workItem from="1718935796306" duration="822000" />
+      <workItem from="1718949827253" duration="2007000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -777,7 +776,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +794,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA 22일차 : 아이템 24. 멤버 클래스 되도록 static 으로 만들라" />
     <MESSAGE value="EFFECTIVE JAVA 23일차 : 아이템 25. 톱 레벨 클래스는 한 파일에 하나만 담으라" />
     <MESSAGE value="EFFECTIVE JAVA 24일차 : 5장 제네릭  아이템 26. 로 타입은 사용하지 말라" />
     <MESSAGE value="EFFECTIVE JAVA 25일차 : 5장 제네릭  아이템 27. 비검사 경고를 제거하라" />
@@ -820,7 +818,8 @@
     <MESSAGE value="EFFECTIVE JAVA 아이템 45. 스트림은 주의해서 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 47. 반환 타입으로는 스트림보다 컬렉션이 낫다." />
     <MESSAGE value="만들면서 배우는 클린 아키텍처 -  01 계층형 아키텍처의 문제는 무엇일까?" />
-    <option name="LAST_COMMIT_MESSAGE" value="만들면서 배우는 클린 아키텍처 -  01 계층형 아키텍처의 문제는 무엇일까?" />
+    <MESSAGE value="만들면서 배우는 클린 아키텍처 -  02.  의존성 역전하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="만들면서 배우는 클린 아키텍처 -  02.  의존성 역전하기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
