@@ -5,6 +5,10 @@ public class Money {
         return null;
     }
 
+    public static Money of(Long amount) {
+        return null;
+    }
+
     public Object negate() {
         return null;
     }

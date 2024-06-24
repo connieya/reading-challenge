@@ -255,6 +255,7 @@
 - [2일차 : 2024-06-21 (p. 12 ~ 22    ) /  02.  의존성 역전하기      ](clean-architecture/docs/2일차/2일차.md)
 - [3일차 : 2024-06-22 (p. 23 ~ 32    ) /  03. 코드 구성하기     ](clean-architecture/docs/3일차/3일차.md)
 - [4일차 : 2024-06-23 (p.33 ~ 52    ) /  04. 유스케이스 구현하기     ](clean-architecture/docs/4일차/4일차.md)
+- [5일차 : 2024-06-24 (p.53 ~ 62    ) /  05. 웹 어댑터 구현하기   ](clean-architecture/docs/5일차/5일차.md)
 
 </details>
 
