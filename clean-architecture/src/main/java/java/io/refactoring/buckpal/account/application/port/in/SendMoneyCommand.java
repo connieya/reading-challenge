@@ -1,17 +1,21 @@
 package java.io.refactoring.buckpal.account.application.port.in;
 
+import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
 import java.io.refactoring.buckpal.account.domain.AccountId;
 import java.io.refactoring.buckpal.account.domain.Money;
+import java.io.refactoring.buckpal.common.SelfValidating;
 
-import static java.util.Objects.requireNonNull;
 
 @Getter
-public class SendMoneyCommand {
+public class SendMoneyCommand extends SelfValidating<SendMoneyCommand> {
 
+    @NotNull
     private final AccountId sourceAccountId;
+    @NotNull
     private final AccountId targetAccountId;
+    @NotNull
     private final Money money;
 
     public SendMoneyCommand(
@@ -21,10 +25,8 @@ public class SendMoneyCommand {
         this.sourceAccountId = sourceAccountId;
         this.targetAccountId = targetAccountId;
         this.money = money;
-        requireNonNull(sourceAccountId);
-        requireNonNull(targetAccountId);
-        requireNonNull(money);
         requireGreaterThan(money, 0);
+        this.validationSelf();
     }
 
     private void requireGreaterThan(Money money, int i) {

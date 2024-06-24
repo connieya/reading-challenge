@@ -1,4 +1,4 @@
-package java.io.refactoring.buckpal.account.application;
+package java.io.refactoring.buckpal.account.application.port.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
