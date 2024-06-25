@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.io.refactoring.buckpal.account.application.port.in.SendMoneyCommand;
 import java.io.refactoring.buckpal.account.application.port.in.SendMoneyUseCase;
-import java.io.refactoring.buckpal.account.domain.AccountId;
+import java.io.refactoring.buckpal.account.domain.Account;
 import java.io.refactoring.buckpal.account.domain.Money;
+
+import static java.io.refactoring.buckpal.account.domain.Account.*;
 
 @RestController
 @RequiredArgsConstructor

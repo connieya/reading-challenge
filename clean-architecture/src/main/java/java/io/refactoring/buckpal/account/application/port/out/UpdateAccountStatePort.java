@@ -1,4 +1,8 @@
 package java.io.refactoring.buckpal.account.application.port.out;
 
-public class UpdateAccountStatePort {
+import java.io.refactoring.buckpal.account.domain.Account;
+
+public interface UpdateAccountStatePort {
+
+    void updateActivities(Account account);
 }

@@ -3,9 +3,11 @@ package java.io.refactoring.buckpal.account.application.port.in;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
-import java.io.refactoring.buckpal.account.domain.AccountId;
+import java.io.refactoring.buckpal.account.domain.Account;
 import java.io.refactoring.buckpal.account.domain.Money;
 import java.io.refactoring.buckpal.common.SelfValidating;
+
+import static java.io.refactoring.buckpal.account.domain.Account.*;
 
 
 @Getter

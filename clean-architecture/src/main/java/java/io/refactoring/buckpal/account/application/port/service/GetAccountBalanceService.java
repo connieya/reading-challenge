@@ -4,9 +4,11 @@ import lombok.RequiredArgsConstructor;
 
 import java.io.refactoring.buckpal.account.application.port.in.GetAccountBalanceQuery;
 import java.io.refactoring.buckpal.account.application.port.out.LoadAccountPort;
-import java.io.refactoring.buckpal.account.domain.AccountId;
+import java.io.refactoring.buckpal.account.domain.Account;
 import java.io.refactoring.buckpal.account.domain.Money;
 import java.time.LocalDateTime;
+
+import static java.io.refactoring.buckpal.account.domain.Account.*;
 
 @RequiredArgsConstructor
 public class GetAccountBalanceService implements GetAccountBalanceQuery {

@@ -256,6 +256,7 @@
 - [3일차 : 2024-06-22 (p. 23 ~ 32    ) /  03. 코드 구성하기     ](clean-architecture/docs/3일차/3일차.md)
 - [4일차 : 2024-06-23 (p.33 ~ 52    ) /  04. 유스케이스 구현하기     ](clean-architecture/docs/4일차/4일차.md)
 - [5일차 : 2024-06-24 (p.53 ~ 62    ) /  05. 웹 어댑터 구현하기   ](clean-architecture/docs/5일차/5일차.md)
+- [6일차 : 2024-06-25 (p.63 ~ 79    ) / 06. 영속성 어댑터 구현하기  ](clean-architecture/docs/6일차/6일차.md)
 
 </details>
 
