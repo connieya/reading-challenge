@@ -54,9 +54,9 @@ class AccountMapper {
         return new ActivityJpaEntity(
                 activity.getId() == null ? null : activity.getId().getValue(),
                 activity.getTimestamp(),
-                activity.getOwnerAccountId().getValiue(),
-                activity.getSourceAccountId().getValiue(),
-                activity.getTargetAccountId().getValiue(),
+                activity.getOwnerAccountId().getValue(),
+                activity.getSourceAccountId().getValue(),
+                activity.getTargetAccountId().getValue(),
                 activity.getMoney().getAmount().longValue()
         );
     }

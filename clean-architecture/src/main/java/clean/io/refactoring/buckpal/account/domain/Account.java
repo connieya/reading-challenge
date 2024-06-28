@@ -77,6 +77,6 @@ public class Account {
 
     @Value
     public static class AccountId {
-        private Long valiue;
+        private Long value;
     }
 }

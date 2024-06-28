@@ -26,23 +26,23 @@ class AccountPersistenceAdapter implements LoadAccountPort, UpdateAccountStatePo
              LocalDateTime baselineDate) {
 
           AccountJpaEntity account =
-                  accountRepository.findById(accountId.getValiue())
+                  accountRepository.findById(accountId.getValue())
                           .orElseThrow(EntityNotFoundException::new);
 
           List<ActivityJpaEntity> activities = activityRepository.findByOwnerSince(
-                  accountId.getValiue(),
+                  accountId.getValue(),
                   baselineDate
           );
 
           Long withdrawalBalance = orZero(activityRepository
                   .getWithdrawalBalanceUntil(
-                  accountId.getValiue(),
+                  accountId.getValue(),
                   baselineDate
           ));
 
           Long depositBalance = orZero(activityRepository
                   .getDepositBalanceUntil(
-                          accountId.getValiue(),
+                          accountId.getValue(),
                           baselineDate
                   ));
 

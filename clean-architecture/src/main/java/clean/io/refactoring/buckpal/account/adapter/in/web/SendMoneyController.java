@@ -1,5 +1,6 @@
 package clean.io.refactoring.buckpal.account.adapter.in.web;
 
+import clean.io.refactoring.buckpal.common.WebAdapter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,6 +14,7 @@ import clean.io.refactoring.buckpal.account.domain.Money;
 import static clean.io.refactoring.buckpal.account.domain.Account.*;
 
 
+@WebAdapter
 @RestController
 @RequiredArgsConstructor
 public class SendMoneyController {
