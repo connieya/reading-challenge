@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="객체 지향과 디자인 패턴  ch1 , ch2 복습">
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/common/WebAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/test/java/clean/io/refactoring/buckpal/SendMoneySystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/test/java/clean/io/refactoring/buckpal/account/adapter/in/web/SendMoneyControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-architecture/src/test/java/clean/io/refactoring/buckpal/account/adapter/out/persistence/AccountPersistenceAdapterTest.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="만들면서 배우는 클린 아키텍처 - 07. 아키텍처 요소 테스트하기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-architecture/docs/7일차/7일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/docs/7일차/7일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/adapter/in/web/SendMoneyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/adapter/in/web/SendMoneyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/adapter/out/persistence/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/adapter/out/persistence/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/adapter/out/persistence/AccountPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/adapter/out/persistence/AccountPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/application/port/service/SendMoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/application/port/service/SendMoneyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/main/java/clean/io/refactoring/buckpal/account/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-architecture/src/test/java/clean/io/refactoring/buckpal/account/application/port/service/SendMoneyServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean-architecture/src/test/java/clean/io/refactoring/buckpal/account/application/port/service/SendMoneyServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/docs/3일차/3일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/oop/docs/3일차/3일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/docs/47일차/47일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/docs/47일차/47일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,6 +419,7 @@
       <workItem from="1718935796306" duration="822000" />
       <workItem from="1718949827253" duration="16253000" />
       <workItem from="1719450355590" duration="2565000" />
+      <workItem from="1719537369128" duration="687000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -774,7 +764,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +782,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA 아이템 30. 이왕이면 제네릭 메서드로 만들라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 31. 한정적 와일드카드를 사용해 API 유연성을 높이라" />
     <MESSAGE value="EFFECTIVE JAVA  아이템 32. 제네릭과 가변인수를 함께 쓸 때는 신중하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 33. 타입 안전 이종 컨테이너를 고려하라" />
@@ -817,7 +806,8 @@
     <MESSAGE value="만들면서 배우는 클린 아키텍처 - 06. 영속성 어댑터 구현하기" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 48. 스트림 병렬화는 주의해서 적용하라" />
     <MESSAGE value="객체 지향과 디자인 패턴  ch1 , ch2 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체 지향과 디자인 패턴  ch1 , ch2 복습" />
+    <MESSAGE value="만들면서 배우는 클린 아키텍처 - 07. 아키텍처 요소 테스트하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="만들면서 배우는 클린 아키텍처 - 07. 아키텍처 요소 테스트하기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
