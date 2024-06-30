@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 51. 메서드 시그니처를 신중히 설계하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/50일차/50일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item52/CollectionClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item52/Overriding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 52. 다중정의는 신중히 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/51일차/51일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item53/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item52/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item52/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,6 +421,7 @@
       <workItem from="1718949827253" duration="16253000" />
       <workItem from="1719450355590" duration="2565000" />
       <workItem from="1719537369128" duration="7173000" />
+      <workItem from="1719731026384" duration="745000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -766,7 +766,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,7 +784,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA 아이템 34. int 상수 대신 열거 타입을 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 35. ordinal 메서드 대신 인스턴스 필드를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 36. 비트 필드 대신 EnumSet을 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 37. ordinal 인덱싱 대신 EnumMap 을 사용하라" />
@@ -809,7 +808,8 @@
     <MESSAGE value="EFFECTIVE JAVA - 아이템 49. 매개변수가 유효한지 검사하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 50. 적시에 방어적 복사본을 만들라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 51. 메서드 시그니처를 신중히 설계하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 51. 메서드 시그니처를 신중히 설계하라" />
+    <MESSAGE value="EFFECTIVE JAVA - 아이템 52. 다중정의는 신중히 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 52. 다중정의는 신중히 사용하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

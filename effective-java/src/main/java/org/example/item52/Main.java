@@ -9,6 +9,6 @@ public class Main {
         new Thread(System.out::println).start();
 
         ExecutorService exec = Executors.newCachedThreadPool();
-        exec.submit(System.out::println);
+//        exec.submit(System.out::println);
     }
 }
