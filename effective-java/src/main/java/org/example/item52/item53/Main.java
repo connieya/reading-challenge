@@ -1,4 +1,4 @@
-package org.example.item53;
+package org.example.item52.item53;
 
 public class Main {
 
