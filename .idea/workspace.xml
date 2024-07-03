@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA -아이템 57. 지역변수의 범위를 최소화하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/56일차/56일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 58. 전통적인 for 문보다는 for-each 문을 사용하라">
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/8일차/8일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-architecture/docs/8일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/57일차/57일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -422,7 +424,8 @@
       <workItem from="1719537369128" duration="7173000" />
       <workItem from="1719731026384" duration="2153000" />
       <workItem from="1719801298289" duration="3949000" />
-      <workItem from="1719881912454" duration="2155000" />
+      <workItem from="1719881912454" duration="2442000" />
+      <workItem from="1719920652677" duration="3173000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -767,7 +770,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -785,7 +788,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA 아이템 42. 익명 클래스보다는 람다를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 43. 람다보다는 메서드 참조를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 44. 표준 함수형 인터페이스를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA 아이템 45. 스트림은 주의해서 사용하라" />
@@ -810,7 +812,8 @@
     <MESSAGE value="개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴  -  Chapter 07. 주요 디자인 패턴 - 전략(strategy) 패턴" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 56. 공개된 API 요소에는 항상 문서화 주석을 작성하라" />
     <MESSAGE value="EFFECTIVE JAVA -아이템 57. 지역변수의 범위를 최소화하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA -아이템 57. 지역변수의 범위를 최소화하라" />
+    <MESSAGE value="EFFECTIVE JAVA - 아이템 58. 전통적인 for 문보다는 for-each 문을 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 58. 전통적인 for 문보다는 for-each 문을 사용하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
