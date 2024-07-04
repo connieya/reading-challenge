@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 63. 문자열 연결은 느리니 주의하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/62일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 64. 객체는 인터페이스를 사용해 참조하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/63일차/63일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item65/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -424,7 +425,7 @@
       <workItem from="1719801298289" duration="3949000" />
       <workItem from="1719881912454" duration="2442000" />
       <workItem from="1719920652677" duration="6365000" />
-      <workItem from="1720054696406" duration="1790000" />
+      <workItem from="1720054696406" duration="3052000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -769,7 +770,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +788,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="만들면서 배우는 클린 아키텍처 -  02.  의존성 역전하기" />
     <MESSAGE value="만들면서 배우는 클린 아키텍처 -  03. 코드 구성하기" />
     <MESSAGE value="만들면서 배우는 클린 아키텍처 -   04. 유스케이스 구현하기" />
     <MESSAGE value="만들면서 배우는 클린 아키텍처 - 05. 웹 어댑터 구현하기" />
@@ -812,7 +812,8 @@
     <MESSAGE value="EFFECTIVE JAVA - 아이템 61. 박싱된 기본 타입보다는 기본 타입을 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 62. 다른 타입이 적절하다면 문자열 사용을 피하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 63. 문자열 연결은 느리니 주의하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 63. 문자열 연결은 느리니 주의하라" />
+    <MESSAGE value="EFFECTIVE JAVA - 아이템 64. 객체는 인터페이스를 사용해 참조하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 64. 객체는 인터페이스를 사용해 참조하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
