@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 67. 최적화는 신중히 하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/66일차/66일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 68. 일반적으로 통용되는 명명 규칙을 따르라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/67일차/67일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -426,7 +426,7 @@
       <workItem from="1719920652677" duration="6365000" />
       <workItem from="1720054696406" duration="4322000" />
       <workItem from="1720144945470" duration="598000" />
-      <workItem from="1720486266121" duration="2714000" />
+      <workItem from="1720486266121" duration="3414000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -771,7 +771,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,7 +789,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="만들면서 배우는 클린 아키텍처 - 06. 영속성 어댑터 구현하기" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 48. 스트림 병렬화는 주의해서 적용하라" />
     <MESSAGE value="객체 지향과 디자인 패턴  ch1 , ch2 복습" />
     <MESSAGE value="만들면서 배우는 클린 아키텍처 - 07. 아키텍처 요소 테스트하기" />
@@ -814,7 +813,8 @@
     <MESSAGE value="EFFECTIVE JAVA -아이템 65. 리플렉션보다는 인터페이스를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 66. 네이티브 메서드는 신중히 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 67. 최적화는 신중히 하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 67. 최적화는 신중히 하라" />
+    <MESSAGE value="EFFECTIVE JAVA - 아이템 68. 일반적으로 통용되는 명명 규칙을 따르라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 68. 일반적으로 통용되는 명명 규칙을 따르라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
