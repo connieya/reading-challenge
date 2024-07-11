@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 71. 필요 없는 검사 예외 사용은 피하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/70일차/70일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 72. 표준 예외를 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/71일차/71일차.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item73/HigherLevelException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -427,7 +428,8 @@
       <workItem from="1720054696406" duration="4322000" />
       <workItem from="1720144945470" duration="598000" />
       <workItem from="1720486266121" duration="3920000" />
-      <workItem from="1720572785912" duration="2738000" />
+      <workItem from="1720572785912" duration="3512000" />
+      <workItem from="1720659802923" duration="1200000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -772,7 +774,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +792,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA - 아이템 49. 매개변수가 유효한지 검사하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 50. 적시에 방어적 복사본을 만들라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 51. 메서드 시그니처를 신중히 설계하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 52. 다중정의는 신중히 사용하라" />
@@ -815,7 +816,8 @@
     <MESSAGE value="EFFECTIVE JAVA - 아이템 69. 예외는 진짜 예외 상황에만 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 70. 복구할 수 있는 상황에는 검사 예외를, 프로그래밍 오류에는 런타임 예외를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 71. 필요 없는 검사 예외 사용은 피하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 71. 필요 없는 검사 예외 사용은 피하라" />
+    <MESSAGE value="EFFECTIVE JAVA - 아이템 72. 표준 예외를 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 72. 표준 예외를 사용하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
