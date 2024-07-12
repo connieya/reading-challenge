@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 73. 추상화 수준에 맞는 예외를 던지라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/72일차/72일차.md" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA - 아이템 74. 메서드가 던지는 모든 예외를 문서화하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/73일차/73일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item73/HigherLevelException.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item73/HigherLevelException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,7 +429,8 @@
       <workItem from="1720144945470" duration="598000" />
       <workItem from="1720486266121" duration="3920000" />
       <workItem from="1720572785912" duration="3512000" />
-      <workItem from="1720659802923" duration="1854000" />
+      <workItem from="1720659802923" duration="3122000" />
+      <workItem from="1720746074382" duration="601000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -773,7 +775,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,7 +793,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA - 아이템 51. 메서드 시그니처를 신중히 설계하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 52. 다중정의는 신중히 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 53. 가변인수는 신중히 사용하라    ]" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 53. 가변인수는 신중히 사용하라" />
@@ -816,7 +817,8 @@
     <MESSAGE value="EFFECTIVE JAVA - 아이템 71. 필요 없는 검사 예외 사용은 피하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 72. 표준 예외를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 73. 추상화 수준에 맞는 예외를 던지라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 73. 추상화 수준에 맞는 예외를 던지라" />
+    <MESSAGE value="EFFECTIVE JAVA - 아이템 74. 메서드가 던지는 모든 예외를 문서화하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA - 아이템 74. 메서드가 던지는 모든 예외를 문서화하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
