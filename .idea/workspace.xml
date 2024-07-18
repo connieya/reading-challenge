@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA -  아이템 82. 스레드 안정성 수준을 문서화하라">
-      <change afterPath="$PROJECT_DIR$/effective-java/docs/81일차/81일차.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item83/FieldType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/org/example/item83/Main.java" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="EFFECTIVE JAVA -  아이템 83. 지연 초기화는 신중히 사용하라">
+      <change afterPath="$PROJECT_DIR$/effective-java/docs/82일차/82일차.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -434,7 +432,7 @@
       <workItem from="1720746074382" duration="1939000" />
       <workItem from="1721004944788" duration="3756000" />
       <workItem from="1721094881359" duration="2205000" />
-      <workItem from="1721272457650" duration="1026000" />
+      <workItem from="1721272457650" duration="2428000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -779,7 +777,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,7 +795,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA - 아이템 58. 전통적인 for 문보다는 for-each 문을 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 59. 라이브러리를 익히고 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이탬 60. 정확한 답이 필요하다면 float 와 double 은 피하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 61. 박싱된 기본 타입보다는 기본 타입을 사용하라" />
@@ -822,7 +819,8 @@
     <MESSAGE value="EFFECTIVE JAVA - 아이템 80.  스레드보다는 실행자, 태스크, 스트림을 애용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 81.  wait 와 notify 보다는 동시성 유틸리티를 애용하라" />
     <MESSAGE value="EFFECTIVE JAVA -  아이템 82. 스레드 안정성 수준을 문서화하라" />
-    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA -  아이템 82. 스레드 안정성 수준을 문서화하라" />
+    <MESSAGE value="EFFECTIVE JAVA -  아이템 83. 지연 초기화는 신중히 사용하라" />
+    <option name="LAST_COMMIT_MESSAGE" value="EFFECTIVE JAVA -  아이템 83. 지연 초기화는 신중히 사용하라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
