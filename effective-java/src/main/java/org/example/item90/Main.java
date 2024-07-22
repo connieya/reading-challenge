@@ -8,7 +8,7 @@ public class Main {
         private final Date start;
         private final Date end;
 
-        SerializationProxy(Period p) {
+        SerializationProxy(org.example.item90.Period p) {
             this.start = p.start();
             this.end = p.end();
         }
