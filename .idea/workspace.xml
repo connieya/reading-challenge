@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 -  1.6 싱글톤 레지스트리 , 1.7 의존관계 주입 (DI)">
-      <change afterPath="$PROJECT_DIR$/toby-spring/docs/10일차/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toby-spring/docs/10일차/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toby-spring/docs/9일차/img.png" afterDir="false" />
+    <list default="true" id="68e4a811-36d4-4ef7-9249-f861e6a6f62e" name="Changes" comment="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 -3.3 JDBC 전략 패턴의 최적화 , 3.4 컨텍스트와 DI">
+      <change afterPath="$PROJECT_DIR$/toby-spring/docs/11일차/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch3_5/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch3_5/LineCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toby-spring/src/main/java/org/example/ch3_5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toby-spring/docs/10일차/10일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/10일차/10일차.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toby-spring/docs/9일차/9일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/9일차/9일차.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toby-spring/ch-1-5/src/test/java/springbook/user/ch15/ch3_5/CalcSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/ch-1-5/src/test/java/springbook/user/ch15/ch3_5/CalcSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toby-spring/docs/11일차/11일차.md" beforeDir="false" afterPath="$PROJECT_DIR$/toby-spring/docs/11일차/11일차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +442,9 @@
       <workItem from="1721609595957" duration="5080000" />
       <workItem from="1721696121384" duration="1939000" />
       <workItem from="1721782388292" duration="2587000" />
-      <workItem from="1721868386853" duration="612000" />
+      <workItem from="1721868386853" duration="1696000" />
+      <workItem from="1721960346341" duration="641000" />
+      <workItem from="1722214306396" duration="1500000" />
     </task>
     <task id="LOCAL-00033" summary="자바 성능 튜닝 이야기 11일차 (p.133 ~ 143)">
       <created>1695093154898</created>
@@ -786,7 +789,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697546914361</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -804,8 +807,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EFFECTIVE JAVA - 아이템 69. 예외는 진짜 예외 상황에만 사용하라" />
-    <MESSAGE value="EFFECTIVE JAVA - 아이템 70. 복구할 수 있는 상황에는 검사 예외를, 프로그래밍 오류에는 런타임 예외를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 71. 필요 없는 검사 예외 사용은 피하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 72. 표준 예외를 사용하라" />
     <MESSAGE value="EFFECTIVE JAVA - 아이템 73. 추상화 수준에 맞는 예외를 던지라" />
@@ -829,7 +830,9 @@
     <MESSAGE value="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 - 1장 오브젝트와 의존관계 , 1.1 초난감 DAO , 1.2 DAO 의 분리  , 1.3 DAO의 확장" />
     <MESSAGE value="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 -  1.4 제어의 역전 (IoC) , 1.5 스프링의 IoC" />
     <MESSAGE value="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 -  1.6 싱글톤 레지스트리 , 1.7 의존관계 주입 (DI)" />
-    <option name="LAST_COMMIT_MESSAGE" value="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 -  1.6 싱글톤 레지스트리 , 1.7 의존관계 주입 (DI)" />
+    <MESSAGE value="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 - 3장 템플릿 ,3.1 다시 보는 초난감 DAO  ,3.2 변하는 것과 변하지 않는 것" />
+    <MESSAGE value="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 -3.3 JDBC 전략 패턴의 최적화 , 3.4 컨텍스트와 DI" />
+    <option name="LAST_COMMIT_MESSAGE" value="토비의 스프링 3.1 Vol.1 스프링의 이해와 원리 -3.3 JDBC 전략 패턴의 최적화 , 3.4 컨텍스트와 DI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

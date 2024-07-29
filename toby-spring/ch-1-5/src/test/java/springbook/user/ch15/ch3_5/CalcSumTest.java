@@ -1,7 +1,9 @@
 package springbook.user.ch15.ch3_5;
 
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import src.main.java.org.example.ch3_5.Calculator;
 
 import java.io.IOException;
 
@@ -18,7 +20,7 @@ public class CalcSumTest {
         int sum = calculator.calcSum(getClass().getResource("numbers.txt").getPath());
 
         // then
-        assertThat(sum).isEqualTo(10);
+        Assertions.assertEquals(sum,10);
     }
 
 }
